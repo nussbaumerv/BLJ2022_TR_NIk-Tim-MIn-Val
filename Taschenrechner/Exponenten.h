@@ -1,7 +1,7 @@
 #ifndef EXPONENTEN_H
 #define EXPONENTEN_H
 
-int exponenten(int Number, int Exponent);
+int exponenten();
 
 #endif /* EXPONENTEN_H */
 

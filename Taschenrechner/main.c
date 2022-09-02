@@ -37,7 +37,7 @@ int main(int argc, char **argv)
     }
     else if (chooseFunction == "w" || chooseFunction == "W")
     {
-       wurzel();
+       wurzeln();
     }
     else if (chooseFunction == "e" || chooseFunction == "E")
     {
