@@ -10,13 +10,7 @@
 
 
 int main(int argc, char** argv) {
-<<<<<<< HEAD
-  
-=======
- 
-
- 
->>>>>>> 736db91ca2e2d51b6de10011db5c216a151b1662
+    printf("%d\n", fakultat());
     return (EXIT_SUCCESS);
 }
 
