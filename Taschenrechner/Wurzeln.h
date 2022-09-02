@@ -1,7 +1,7 @@
 #ifndef WURZELN_H
 #define WURZELN_H
 
-calculateSQRT(int num);
+int wurzeln();
 
 #endif /* WURZELN_H */
 

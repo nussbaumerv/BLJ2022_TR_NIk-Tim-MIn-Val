@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int Multiplikation(){
+int multiplikation(){
     int firstNumber;
     int secondNumber;
 

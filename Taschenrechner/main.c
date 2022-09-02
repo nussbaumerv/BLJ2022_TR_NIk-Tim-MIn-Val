@@ -16,32 +16,32 @@ int main(int argc, char **argv)
 
     if (chooseFunction == "a" || chooseFunction == "A")
     {
-        Addition();
-        printf("%d", Addition());
+        addition();
+        printf("%d", addition());
     }
     else if (chooseFunction == "s" || chooseFunction == "S")
     {
-        Subtraktion();
+        subtraktion();
     }
     else if (chooseFunction == "m" || chooseFunction == "M")
     {
-       Multiplikation();
+       multiplikation();
     }
     else if (chooseFunction == "d" || chooseFunction == "D")
     {
-       Division();
+       division();
     }
     else if (chooseFunction == "f" || chooseFunction == "F")
     {
-       Fakultat();
+       fakultat();
     }
     else if (chooseFunction == "w" || chooseFunction == "W")
     {
-       Wurzel();
+       wurzel();
     }
     else if (chooseFunction == "e" || chooseFunction == "E")
     {
-       Exponenten();
+       exponenten();
     }
 
     return (EXIT_SUCCESS);

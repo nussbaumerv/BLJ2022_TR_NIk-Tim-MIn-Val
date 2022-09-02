@@ -7,14 +7,14 @@
 // ! By Timofey Makhankov
 #include <stdio.h>
 
-int calculateSQRT(int num){
+int wurzenl(int num){
     short calculating = 1;
     short is_running = 1;
     while (is_running){
     int input = 0;
     printf("\nGive a Digit:");
     scanf("%d", &result)
-    if(input < 1){
+    if (input < 1){
         printf("Please try again!\n")
     }else{
         while(calculating){

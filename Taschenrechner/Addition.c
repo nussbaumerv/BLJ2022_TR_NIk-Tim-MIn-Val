@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int Addition(){
+int addition(){
     int firstNumber;
     int secondNumber;
 
