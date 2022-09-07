@@ -9,5 +9,4 @@ int exponenten();
 int wurzeln();
 int fakultat();
 
-
 #endif // !FUNCTIONS.H
