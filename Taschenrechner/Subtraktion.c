@@ -13,7 +13,7 @@ int subtraktion(){
         scanf("%d", &subNum);
         if(result == 0){
         result = subNum;
-        result = result - subNum;
+      
         }else  {
             result = result -subNum;
         }

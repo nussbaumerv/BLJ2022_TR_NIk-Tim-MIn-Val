@@ -2,16 +2,24 @@
 #include <stdlib.h>
 
 int multiplikation(){
-    float firstNumber;
-    float secondNumber;
+    int result = 0;
+    int mulNum;
+    int numbers;
+    printf("How many numbers do you want to multiply?\n");
+    scanf("%d", &numbers);
 
-    printf("Type the first number: ");
-    scanf("%f", &firstNumber);
-
-    printf("Type the second number: ");
-    scanf("%f", &secondNumber);
-
-    float result = firstNumber * secondNumber;
+    while(numbers > 0){
+        printf("Type a number: ");
+        scanf("%d", &mulNum);
+                if(result == 0){
+        result = mulNum;
+      
+        }else  {
+            result = result * mulNum;
+        }
+        numbers--;
+    }
+    
     return result;
 
 }
