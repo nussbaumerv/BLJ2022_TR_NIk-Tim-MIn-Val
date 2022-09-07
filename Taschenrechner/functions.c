@@ -91,7 +91,7 @@ float division(){
 int exponenten(){
     int Number;
     int Exponent;
-    printf("\nNumber: ");
+    printf("Number: ");
     scanf("%d", &Number);
     printf("Exponent: ");
     scanf("%d", &Exponent);
