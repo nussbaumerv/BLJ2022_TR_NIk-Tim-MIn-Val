@@ -6,10 +6,10 @@ int multiplikation(){
     int secondNumber;
 
     printf("Type the first number: ");
-    scanf("%d", firstNumber);
+    scanf("%d", &firstNumber);
 
     printf("Type the second number: ");
-    scanf("%d", secondNumber);
+    scanf("%d", &secondNumber);
 
     int result = firstNumber * secondNumber;
     return result;

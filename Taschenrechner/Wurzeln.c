@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-int wurzenl(int num){
+int wurzeln(int num){
     short calculating = 1;
     short is_running = 1;
     while (is_running){
         
     int input = 0;
-    printf("\nGive a Digit:");
+    printf("Give a Digit:");
     scanf("%d", &input);
             
     if(input < 1){
