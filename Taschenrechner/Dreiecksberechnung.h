@@ -14,16 +14,6 @@
 #ifndef DREIECKSBERECHNUNG_H
 #define DREIECKSBERECHNUNG_H
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-
-
-
-#ifdef __cplusplus
-}
-#endif
-
+float dreiecksberechnung();
 #endif /* DREIECKSBERECHNUNG_H */
 

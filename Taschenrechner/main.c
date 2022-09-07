@@ -75,7 +75,7 @@ int main(int argc, char **argv)
                else if (chooseFunction == 't' || chooseFunction == 'T')
                {
                     printf("Welcome to the Triangle tool\n");
-                    printf("\nResult: %f \n", dreiecksberechnung());
+                    printf("\nSeite C: %dcm\n", dreiecksberechnung());
                }
                printf("------------------------------------------\n");
           }
