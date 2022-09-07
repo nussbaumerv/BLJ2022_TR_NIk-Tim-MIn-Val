@@ -10,6 +10,7 @@ float RechteckFlache(){
         {
             while ((c = getc(file)) != EOF)
                 putchar(c);
+        }
          
     float firstNumber;
     float secondNumber;
