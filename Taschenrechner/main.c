@@ -9,10 +9,18 @@ int main(int argc, char **argv)
      char firstInput;
      int isRunning = 1;
      int c;
-     FILE *file;
-        
+        FILE *file;
+        file = fopen("Title.txt", "r");
+        if (file)
+        {
+            while ((c = getc(file)) != EOF)
+                putchar(c);
+            fclose(file);
+        }
 
-     printf("Welcome to our Calculator\n");
+
+
+     printf("\nWelcome to our Calculator\n");
 
 
      while (isRunning)
