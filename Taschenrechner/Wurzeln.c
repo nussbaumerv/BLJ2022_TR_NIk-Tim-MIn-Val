@@ -15,10 +15,10 @@ int wurzeln(int num){
                 
     }else {
         while(calculating){
-            int i = 1;
-            int compare = i * i;
+            int i = input;
+            int compare = i / i;
             
-            if(compare == input){
+            if(input / compare = compare){
                 
                 return i;
                 calculating = 0;
