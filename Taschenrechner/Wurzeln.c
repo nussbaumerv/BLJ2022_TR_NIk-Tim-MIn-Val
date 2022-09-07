@@ -18,7 +18,7 @@ int wurzeln(int num){
             int i = input;
             int compare = i / i;
             
-            if(input / compare = compare){
+            if(){
                 
                 return i;
                 calculating = 0;
