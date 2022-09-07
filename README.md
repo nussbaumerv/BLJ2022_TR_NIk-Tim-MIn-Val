@@ -33,7 +33,7 @@ Der Taschenrechner darf Operatoren (noch) nicht mischen (z.B. 3+2*4).
 
 Es soll aber möglich sein, negative Zahlen zu multiplizieren.
 
-Deadline für das Projekt wäre am 08.09.2022 Donnerstag
+Deadline für das Projekt wäre am 08.09.2022 Donnerstag.
 
 ## 2. Planen:
 
@@ -51,7 +51,7 @@ Die Arbeit haben wir am Schluss so aufgeteilt:
 
 Nach der Planung für das Projekt, waren wir alle mit der Aufteilung einverstanden und konnten loslegen.
 
-Unser Ziel ist es, möglichst effizient zu arbeiten und am Schluss ein fertiggestellten Produkt präsentieren zu können
+Unser Ziel ist es, möglichst effizient zu arbeiten und am Schluss ein fertiggestellten Produkt präsentieren zu können.
 
 Es ist auch wichtig, dass wir miteinander kommunizieren, damit wir uns gegenseitig bei unseren Problemen helfen können und auch um sicherzustellen, dass wir einen klaren Überblick über das gesamte Projekt haben.
 
@@ -63,9 +63,7 @@ Es gab einen Merge-Konflikt in Github, aber wir konnten das Problem selbst beheb
 
 Um einen zukünftigen Merge-Konflikt zu verhindern, haben wir immer kleine checkups um zu wissen, wer gerade an welcher Funktion arbeitet.
 
-Wir haben viele Tests durchgeführt und haben dann immer 
-Ansonsten gab es nur Mikroprobleme wie z.B. wie man ein Code schreibt usw.
-Diese Probleme konnten schnell gelöst werden, indem wir einander gegenseitig geholfen haben.
+Ansonsten gab es nur Mikroprobleme wie z.B. wie man ein Code schreibt usw. und diese Probleme konnten schnell gelöst werden, indem wir einander gegenseitig geholfen haben.
 
 Unsere Gruppe hat die Funktionen verbessert, indem wir nach jedem testing des Codes kleine Anpassungen gemacht haben, damit wir sehen können, ob der Rechner wie vorgesehen funktioniert.
 
@@ -90,4 +88,13 @@ Wir sind auch rechtzeitig fertig geworden mit dem Taschenrechner und hatten dann
 
 Alle sind am Schluss mit dem Produkt zufrieden gewesen und wir konnten viel lernen und viele Erfahrungen in Git und auch in die Programmiersprache C sammeln.
 
-THE ONE PIECE IS REAL!!!!!!!
+
+
+
+
+
+
+
+
+
+THE ONE PIECE IS REAL!
