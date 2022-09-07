@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include "functions.h"
 #include "KreisFlache.h"
+#include "Dreiecksberechnung.h"
 
 int main(int argc, char **argv)
 {
@@ -28,9 +29,7 @@ int main(int argc, char **argv)
                printf("What tool do you want to use?\n");
 
                printf("\nThese are our available Tools: \nA = Addition\nS = Subtraktion\nM = Multiplikation\nD = Division\nE = Exponenten\nF = Fakultat\nW = Wurzel\nT = Triangle\nC = Circle\n");
-
-               printf("\nThese are our available Tools: \nA = Addition\nS = Subtraktion\nM = Multiplikation\nD = Division\nE = Exponenten\nF = Fakultat\nW = Wurzel\nT = Triangle\n");
-
+               
                printf("Type character: ");
                scanf("%c", &chooseFunction);
                fflush(stdin);

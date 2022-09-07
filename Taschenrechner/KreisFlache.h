@@ -1,5 +1,5 @@
-#ifndef KREISFLÄCHE_H
-#define KREISFLÄCHE_H
+#ifndef KREISFLACHE_H
+#define KREISFLACHE_H
 float KreisFlache();
 
 #endif /* KREISFLÄCHE_H */
