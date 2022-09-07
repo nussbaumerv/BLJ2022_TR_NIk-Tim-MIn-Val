@@ -7,7 +7,7 @@ float KreisFlache(){
     int isRunning = 1;
      int c;
         FILE *file;
-        file = fopen("Title.txt", "r");
+        file = fopen("Circle.txt", "r");
         if (file)
         {
             while ((c = getc(file)) != EOF)
