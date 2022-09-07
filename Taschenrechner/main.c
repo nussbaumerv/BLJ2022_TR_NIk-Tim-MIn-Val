@@ -28,7 +28,7 @@ int main(int argc, char **argv)
     }
     else if (chooseFunction == 'd' || chooseFunction == 'D')
     {
-         printf("%d\n", division());
+         printf("%f\n", division());
     }
     else if (chooseFunction == 'f' || chooseFunction == 'F')
     {

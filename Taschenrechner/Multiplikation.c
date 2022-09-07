@@ -2,16 +2,16 @@
 #include <stdlib.h>
 
 int multiplikation(){
-    int firstNumber;
-    int secondNumber;
+    float firstNumber;
+    float secondNumber;
 
     printf("Type the first number: ");
-    scanf("%d", &firstNumber);
+    scanf("%f", &firstNumber);
 
     printf("Type the second number: ");
-    scanf("%d", &secondNumber);
+    scanf("%f", &secondNumber);
 
-    int result = firstNumber * secondNumber;
+    float result = firstNumber * secondNumber;
     return result;
 
 }
