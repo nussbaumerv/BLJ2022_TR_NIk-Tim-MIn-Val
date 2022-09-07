@@ -12,7 +12,7 @@ int main(int argc, char **argv)
 {
      char firstInput;
      int isRunning = 1;
-     printf("Welcome to ou\n");
+     printf("Welcome to our\n");
 
      while (isRunning)
      {
@@ -42,7 +42,7 @@ int main(int argc, char **argv)
                }
                else if (chooseFunction == 'd' || chooseFunction == 'D')
                {
-                    printf("%d\n", division());
+                    printf("%f\n", division());
                }
                else if (chooseFunction == 'f' || chooseFunction == 'F')
                {
