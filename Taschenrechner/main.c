@@ -24,6 +24,7 @@ int main(int argc, char **argv)
           printf("\nEnter S to start or X to exit: ");
           scanf("%c", &firstInput);
           fflush(stdin);
+          system("clear");
 
           if (firstInput == 's' || firstInput == 'S')
           {
