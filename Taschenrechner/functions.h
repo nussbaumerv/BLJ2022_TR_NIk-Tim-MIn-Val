@@ -8,6 +8,5 @@ float division();
 int exponenten();
 int wurzeln();
 int fakultat();
-int dreiecksberechnung();
 
 #endif // !FUNCTIONS_H

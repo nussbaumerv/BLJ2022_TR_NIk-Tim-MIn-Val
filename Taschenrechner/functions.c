@@ -146,18 +146,3 @@ int i, fact = 1, number;
   }  
   return fact;
 }
-
-int dreiecksberechnung(){
-    int firstNumber;
-    int secondNumber;
-
-    printf("Type the length of A in cm: ");
-    scanf("%d", &firstNumber);
-
-    printf("Type the length of B in cm: ");
-    scanf("%d", &secondNumber);
-
-    int result = (firstNumber * firstNumber) + (secondNumber * secondNumber);
-    return result;
-
-}
