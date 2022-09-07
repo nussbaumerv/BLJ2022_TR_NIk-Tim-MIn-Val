@@ -14,7 +14,7 @@ float RechteckFlache(){
     float firstNumber;
     float secondNumber;
 
-    printf("Type the length of the first side in cm: ");
+    printf("\nType the length of the first side in cm: ");
     scanf("%f", &firstNumber);
 
     printf("Type the length of second side in cm: ");

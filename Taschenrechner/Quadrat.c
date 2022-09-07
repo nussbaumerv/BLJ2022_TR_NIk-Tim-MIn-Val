@@ -12,7 +12,7 @@ float Quadrat(){
             fclose(file);
         }
     float a;
-    printf("Side a: ");
+    printf("\nSide a: ");
     scanf("%f", &a);
     float result = a * a;
     return result;
