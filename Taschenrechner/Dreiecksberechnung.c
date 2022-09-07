@@ -16,7 +16,7 @@ float dreiecksberechnung(){
             fclose(file);
         }
 
-    printf("Type the height of the triangle in cm: ");
+    printf("\nType the height of the triangle in cm: ");
     scanf("%f", &firstNumber);
 
     printf("Type the length of the base side in cm: ");
