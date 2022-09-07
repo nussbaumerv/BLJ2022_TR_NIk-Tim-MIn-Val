@@ -10,7 +10,7 @@ int exponenten(){
     printf("Exponent: ");
     scanf("%d", &Exponent);
    int result = Number;
-   for (Exponent > 1; Exponent--;)
+   for (Exponent > 1; --Exponent;)
    {
     result*=Number;
    }

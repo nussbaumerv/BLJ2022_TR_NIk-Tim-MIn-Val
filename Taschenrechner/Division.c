@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int division(){
-    int a, b;
+float division(){
+    float a, b;
     printf("Type the first number: ");
-    scanf("%d", &a);
+    scanf("%f", &a);
     printf("Type the second number: ");
-     scanf("%d", &b);
-     int result = a / b;
+     scanf("%f", &b);
+     float result = a / b;
      return result;
 }
 

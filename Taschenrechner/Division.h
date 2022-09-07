@@ -1,7 +1,7 @@
 #ifndef DIVISION_H
 #define DIVISION_H
 
-int division();
+float division();
 
 #endif /* DIVISION_H */
 

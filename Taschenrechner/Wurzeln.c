@@ -3,6 +3,7 @@
 int wurzeln(int num){
     short calculating = 1;
     short is_running = 1;
+    int i = 1;
     while (is_running){
         
     int input = 0;
@@ -16,9 +17,7 @@ int wurzeln(int num){
     }else {
         printf("wow");
         while(calculating){
-            int i = 1;
             int compare = i * i;
-            
             if(compare == input){
                 return i;
                 calculating = 0;
@@ -26,6 +25,7 @@ int wurzeln(int num){
                 printf("Couldn't get the square root of %d", input);
                 calculating = 0;
             }
+            ++i;
         }
     }is_running = 0;
     }

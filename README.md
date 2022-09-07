@@ -1,20 +1,46 @@
-# BLJ2022_TR_NIk-Tim-MIn-Val
+# Taschenrechner in C Doku
 
-Informieren: Wir haben die Aufgabestellung durchgelesen und die Pflichtfeatures notiert
+## 1.Informieren: 
 
-# 2. Planen:
+Zuerst haben wir die Aufgabenstellung durchgelesen und uns die wichtigsten Plfichtfeatures notiert.
+
+### Pflichtfeatures:
+•Summieren
+•Subtrahieren
+•Dividieren
+•Multiplizieren
+•Exponenten
+•Wurzeln
+•Fakultät
+
+### Zusätzliche Infos
+
+Der Taschenrechner darf Operatoren (noch) nicht mischen (z.B. 3+2*4).
+Es soll aber möglich sein, negative Zahlen zu multiplizieren.
+
+Deadline für das Projekt wäre am 08.09.2022 Donnerstag
+
+## 2. Planen:
 
 Wir haben von beginn unser gesammtes Projekt sehr gut aufgeteilt. Da wir viele Funktionen schreiben müssen, haben wir geschaut, wer welche Arbeit machen wird und wer welche Funktionen schreiben wird, so dass wir möglichst effizient weiter kommen können.
 
-- Nikola: Subtraktion & Division & Fakultät
-- Timofey: Wurzeln & Exponenten
-- Valentin: Main Function & Addition & Multiplikation
-- Minh: Doku für das ganze Projekt
-- 
-# 3. Entscheiden:
+Die Arbeit haben wir so aufgeteilt:
 
-# 4. Realisieren: 
+    - Nikola: Subtraktion & Division & Fakultät
+    - Timofey: Wurzeln & Exponenten
+    - Valentin: Main Function & Addition & Multiplikation
+    - Minh: Doku für das ganze Projekt 
+ 
+## 3. Entscheiden:
 
-# 5. Kontrollieren:
+Nach der Planung für das Projekt, waren wir alle mit der Aufteilung einverstanden und konnten loslegen.
 
-# 6. Auswerten
+Unser Ziel ist es, möglichst effizient zu arbeiten und am Schluss ein fertiggestellten Produkt präsentieren zu können
+
+Es ist auch wichtig, dass wir miteinander kommunizieren, damit wir uns gegenseitig bei unseren Problemen helfen können und auch um sicherzustellen, dass wir einen klaren Überblick über das gesamte Projekt haben.
+
+## 4. Realisieren: 
+
+## 5. Kontrollieren:
+
+## 6. Auswerten
