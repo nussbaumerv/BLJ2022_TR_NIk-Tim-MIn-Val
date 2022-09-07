@@ -1,15 +1,26 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "functions.h"
+#include "KreisFlache.h"
+#include "Dreiecksberechnung.h"
 
 int main(int argc, char **argv)
 {
      char firstInput;
      int isRunning = 1;
+     int c;
+        FILE *file;
+        file = fopen("Title.txt", "r");
+        if (file)
+        {
+            while ((c = getc(file)) != EOF)
+                putchar(c);
+            fclose(file);
+        }
 
-     
 
-     printf("Welcome to our Calculator\n");
+
+     printf("\nWelcome to our Calculator\n");
 
 
      while (isRunning)
@@ -24,10 +35,13 @@ int main(int argc, char **argv)
           {
                char chooseFunction;
                printf("What tool do you want to use?\n");
-               printf("\nThese are our available Tools: \nA = Addition\nS = Subtraktion\nM = Multiplikation\nD = Division\nE = Exponenten\nF = Fakultat\nW = Wurzel\n");
+
+               printf("\nThese are our available Tools: \nA = Addition\nS = Subtraktion\nM = Multiplikation\nD = Division\nE = Exponenten\nF = Fakultat\nW = Wurzel\nT = Triangle\nC = Circle\n");
+               
                printf("Type character: ");
                scanf("%c", &chooseFunction);
                fflush(stdin);
+               system("clear");
 
                if (chooseFunction == 'a' || chooseFunction == 'A')
                {
@@ -46,28 +60,33 @@ int main(int argc, char **argv)
                }
                else if (chooseFunction == 'd' || chooseFunction == 'D')
                {
-                    printf("Welcome to the Division tool");
+                    printf("\nWelcome to the Division tool\n");
                     printf("\nResult: %f\n", division());
                }
                else if (chooseFunction == 'f' || chooseFunction == 'F')
                {
-                    printf("Welcome to the Fakultat tool");
+                    printf("\nWelcome to the Fakultat tool\n");
                     printf("\nResult: %d\n", fakultat());
                }
                else if (chooseFunction == 'w' || chooseFunction == 'W')
                {
-                    printf("Welcome to the Wurzel tool");
+                    printf("\nWelcome to the Wurzel tool\n");
                     printf("\nResult: %d\n", wurzeln());
                }
                else if (chooseFunction == 'e' || chooseFunction == 'E')
                {
-                    printf("Welcome to the Exponenten tool");
+                    printf("\nWelcome to the Exponenten tool\n");
                     printf("\nResult: %d\n", exponenten());
                }
                else if (chooseFunction == 't' || chooseFunction == 'T')
                {
-                    printf("Welcome to the Triangle tool\n");
-                    printf("\nSeite C: %dcm\n", dreiecksberechnung());
+                    printf("\nWelcome to the Triangle tool\n");
+                    printf("\nFlaeche: %.2fcm2\n", dreiecksberechnung());
+               }
+                else if (chooseFunction == 'c' || chooseFunction == 'C')
+               {
+                    printf("Welcome to the Circle tool\n");
+                    printf("\nResult: %f\n", KreisFlache());
                }
                printf("------------------------------------------\n");
           }

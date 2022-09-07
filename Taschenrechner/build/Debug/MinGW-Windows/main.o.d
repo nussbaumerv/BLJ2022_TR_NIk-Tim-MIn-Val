@@ -1,16 +1,5 @@
-build/Debug/MinGW-Windows/main.o: main.c Addition.h Division.h \
- Exponenten.h Subtraktion.h Fakultat.h Wurzeln.h Multiplikation.h
+build/Debug/MinGW-Windows/main.o: main.c functions.h KreisFlache.h
 
-Addition.h:
+functions.h:
 
-Division.h:
-
-Exponenten.h:
-
-Subtraktion.h:
-
-Fakultat.h:
-
-Wurzeln.h:
-
-Multiplikation.h:
+KreisFlache.h:

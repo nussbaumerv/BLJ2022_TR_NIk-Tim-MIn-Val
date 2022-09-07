@@ -91,7 +91,7 @@ float division(){
 int exponenten(){
     int Number;
     int Exponent;
-    printf("\nNumber: ");
+    printf("Number: ");
     scanf("%d", &Number);
     printf("Exponent: ");
     scanf("%d", &Exponent);
@@ -145,19 +145,4 @@ int i, fact = 1, number;
       fact=fact*i;    
   }  
   return fact;
-}
-
-int dreiecksberechnung(){
-    int firstNumber;
-    int secondNumber;
-
-    printf("Type the length of A in cm: ");
-    scanf("%d", &firstNumber);
-
-    printf("Type the length of B in cm: ");
-    scanf("%d", &secondNumber);
-
-    int result = (firstNumber * firstNumber) + (secondNumber * secondNumber);
-    return result;
-
 }

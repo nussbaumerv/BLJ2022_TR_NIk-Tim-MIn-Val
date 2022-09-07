@@ -9,6 +9,7 @@
       <itemPath>Dreiecksberechnung.h</itemPath>
       <itemPath>Exponenten.h</itemPath>
       <itemPath>Fakultat.h</itemPath>
+      <itemPath>KreisFlache.h</itemPath>
       <itemPath>Multiplikation.h</itemPath>
       <itemPath>Subtraktion.h</itemPath>
       <itemPath>Wurzeln.h</itemPath>
@@ -25,6 +26,7 @@
       <itemPath>Dreiecksberechnung.c</itemPath>
       <itemPath>Exponenten.c</itemPath>
       <itemPath>Fakultat.c</itemPath>
+      <itemPath>KreisFlache.c</itemPath>
       <itemPath>Multiplikation.c</itemPath>
       <itemPath>Subtraktion.c</itemPath>
       <itemPath>Wurzeln.c</itemPath>
@@ -71,6 +73,10 @@
       <item path="Fakultat.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Fakultat.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="KreisFlache.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="KreisFlache.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Multiplikation.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -126,6 +132,10 @@
       <item path="Fakultat.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Fakultat.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="KreisFlache.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="KreisFlache.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Multiplikation.c" ex="false" tool="0" flavor2="0">
       </item>
