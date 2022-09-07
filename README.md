@@ -5,13 +5,20 @@
 Zuerst haben wir die Aufgabenstellung durchgelesen und uns die wichtigsten Plfichtfeatures notiert.
 
 ### Pflichtfeatures:
-•Summieren
-•Subtrahieren
-•Dividieren
-•Multiplizieren
-•Exponenten
-•Wurzeln
-•Fakultät
+    •Summieren
+    •Subtrahieren
+    •Dividieren
+    •Multiplizieren
+    •Exponenten
+    •Wurzeln
+    •Fakultät
+    
+    Berechnen der Fläche/Volumen von folgenden Flächen/Körper
+        Kreis
+        Quadrat
+        Rechteck
+        Dreieck
+        Trapez
 
 ### Zusätzliche Infos
 
