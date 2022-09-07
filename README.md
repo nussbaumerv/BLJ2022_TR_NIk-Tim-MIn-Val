@@ -13,12 +13,12 @@ Zuerst haben wir die Aufgabenstellung durchgelesen und uns die wichtigsten Plfic
     •Wurzeln
     •Fakultät
 
-Berechnen der Fläche/Volumen von folgenden Flächen/Körper
-    -Kreis
-    -Quadrat
-    -Rechteck
-    -Dreieck
-    -Trapez
+### Berechnen der Fläche/Volumen von folgenden Flächen/Körper
+    •Kreis
+    •Quadrat
+    •Rechteck
+    •Dreieck
+    •Trapez
 
 ### Zusätzliche Infos
 
