@@ -41,6 +41,15 @@ Es ist auch wichtig, dass wir miteinander kommunizieren, damit wir uns gegenseit
 
 ## 4. Realisieren: 
 
+Während der Arbeit sind wir auf einem Problem gestossen.
+
+Wir hatten einen Merge-Konflikt in Github, aber wir konnten das Problem selbst beheben.
+
+Ansonsten gab es nur Mikroprobleme wie z.B. wie man ein Code schreibt usw.
+Diese Probleme konnten schnell gelöst werden, indem wir einander gegenseitig geholfen haben.
+
+Unsere Gruppe hat die Funktionen verbessert, indem wir nach jedem testing des Codes kleine Anpassungen gemacht haben, damit wir sehen können, ob der Rechner wie vorgesehen funktioniert.
+
 ## 5. Kontrollieren:
 
 ## 6. Auswerten
