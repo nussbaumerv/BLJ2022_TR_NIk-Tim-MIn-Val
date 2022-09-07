@@ -87,14 +87,3 @@ Wir haben die Funktionen größtenteils alleine geschrieben, aber gegen Ende uns
 Wir sind auch rechtzeitig fertig geworden mit dem Taschenrechner und hatten dann genug Zeit um an unsere Präsentation zu arbeiten.
 
 Alle sind am Schluss mit dem Produkt zufrieden gewesen und wir konnten viel lernen und viele Erfahrungen in Git und auch in die Programmiersprache C sammeln.
-
-
-
-
-
-
-
-
-
-
-THE ONE PIECE IS REAL!
