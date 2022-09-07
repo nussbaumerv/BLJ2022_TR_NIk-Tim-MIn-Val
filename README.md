@@ -1,6 +1,6 @@
 # Taschenrechner in C Doku
 
-## 1.Informieren: 
+## 1. Informieren: 
 
 Zuerst haben wir die Aufgabenstellung durchgelesen und uns die wichtigsten Plfichtfeatures notiert.
 
@@ -34,10 +34,10 @@ Wir haben von beginn unser gesammtes Projekt sehr gut aufgeteilt. Da wir viele F
 
 Die Arbeit haben wir so aufgeteilt:
 
-    - Nikola: Subtraktion & Division & Fakultät
-    - Timofey: Wurzeln & Exponenten
-    - Valentin: Main Function & Addition & Multiplikation
-    - Minh: Doku für das ganze Projekt 
+    • Nikola: Subtraktion & Division & Fakultät
+    • Timofey: Wurzeln & Exponenten
+    • Valentin: Main Function & Addition & Multiplikation
+    • Minh: Doku für das ganze Projekt 
  
 ## 3. Entscheiden:
 
