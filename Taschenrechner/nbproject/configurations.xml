@@ -11,6 +11,7 @@
       <itemPath>Fakultat.h</itemPath>
       <itemPath>KreisFlache.h</itemPath>
       <itemPath>Multiplikation.h</itemPath>
+      <itemPath>Quadrat.h</itemPath>
       <itemPath>Subtraktion.h</itemPath>
       <itemPath>Wurzeln.h</itemPath>
     </logicalFolder>
@@ -28,6 +29,7 @@
       <itemPath>Fakultat.c</itemPath>
       <itemPath>KreisFlache.c</itemPath>
       <itemPath>Multiplikation.c</itemPath>
+      <itemPath>Quadrat.c</itemPath>
       <itemPath>Subtraktion.c</itemPath>
       <itemPath>Wurzeln.c</itemPath>
       <itemPath>main.c</itemPath>
@@ -81,6 +83,10 @@
       <item path="Multiplikation.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Multiplikation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Quadrat.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Quadrat.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Subtraktion.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -140,6 +146,10 @@
       <item path="Multiplikation.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Multiplikation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Quadrat.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Quadrat.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Subtraktion.c" ex="false" tool="0" flavor2="0">
       </item>

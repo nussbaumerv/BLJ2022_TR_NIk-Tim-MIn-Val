@@ -42,6 +42,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Fakultat.o \
 	${OBJECTDIR}/KreisFlache.o \
 	${OBJECTDIR}/Multiplikation.o \
+	${OBJECTDIR}/Quadrat.o \
 	${OBJECTDIR}/Subtraktion.o \
 	${OBJECTDIR}/Wurzeln.o \
 	${OBJECTDIR}/main.o
@@ -105,6 +106,11 @@ ${OBJECTDIR}/Multiplikation.o: Multiplikation.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Multiplikation.o Multiplikation.c
+
+${OBJECTDIR}/Quadrat.o: Quadrat.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Quadrat.o Quadrat.c
 
 ${OBJECTDIR}/Subtraktion.o: Subtraktion.c
 	${MKDIR} -p ${OBJECTDIR}

@@ -3,6 +3,7 @@
 #include "functions.h"
 #include "KreisFlache.h"
 #include "Dreiecksberechnung.h"
+#include "Quadrat.h"
 
 int main(int argc, char **argv)
 {
@@ -36,7 +37,7 @@ int main(int argc, char **argv)
                char chooseFunction;
                printf("What tool do you want to use?\n");
 
-               printf("\nThese are our available Tools: \nA = Addition\nS = Subtraktion\nM = Multiplikation\nD = Division\nE = Exponenten\nF = Fakultat\nW = Wurzel\nT = Triangle\nC = Circle\n");
+               printf("\nThese are our available Tools: \nA = Addition\nS = Subtraktion\nM = Multiplikation\nD = Division\nE = Exponenten\nF = Fakultat\nW = Wurzel\nT = Triangle\nC = Circle\nV = Viereck\n");
                
                printf("Type character: ");
                scanf("%c", &chooseFunction);
@@ -87,6 +88,11 @@ int main(int argc, char **argv)
                {
                     printf("Welcome to the Circle tool\n");
                     printf("\nResult: %f\n", KreisFlache());
+               }
+                  else if (chooseFunction == 'v' || chooseFunction == 'V')
+               {
+                    printf("Welcome to the Square tool\n");
+                    printf("\nResult: %f\n", Quadrat());
                }
                printf("------------------------------------------\n");
           }
