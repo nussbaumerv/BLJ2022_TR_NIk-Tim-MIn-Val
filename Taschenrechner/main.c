@@ -39,44 +39,38 @@ int main(int argc, char **argv)
                {
                     printf("\nWelcome to the Addition tool\n");
                     printf("\nResult: %d\n", addition());
-                    printf("------------------------------------------\n");
                }
                else if (chooseFunction == 's' || chooseFunction == 'S')
                {
                     printf("\nWelcome to the Subtraktion tool\n");
                     printf("\nResult: %d\n", subtraktion());
-                    printf("------------------------------------------\n");
                }
                else if (chooseFunction == 'm' || chooseFunction == 'M')
                {
                     printf("\nWelcome to the Multiplikation tool\n");
                     printf("\nResult: %d\n", multiplikation());
-                    printf("------------------------------------------\n");
                }
                else if (chooseFunction == 'd' || chooseFunction == 'D')
                {
                     printf("Welcome to the Division tool");
                     printf("\nResult: %f\n", division());
-                    printf("------------------------------------------\n");
                }
                else if (chooseFunction == 'f' || chooseFunction == 'F')
                {
                     printf("Welcome to the Fakultat tool");
                     printf("\nResult: %d\n", fakultat());
-                    printf("------------------------------------------\n");
                }
                else if (chooseFunction == 'w' || chooseFunction == 'W')
                {
                     printf("Welcome to the Wurzel tool");
                     printf("\nResult: %d\n", wurzeln());
-                    printf("------------------------------------------\n");
                }
                else if (chooseFunction == 'e' || chooseFunction == 'E')
                {
                     printf("Welcome to the Exponenten tool");
                     printf("\nResult: %d\n", exponenten());
-                    printf("------------------------------------------\n");
                }
+               printf("------------------------------------------\n");
           }
           if (firstInput == 'x' || firstInput == 'X')
 
