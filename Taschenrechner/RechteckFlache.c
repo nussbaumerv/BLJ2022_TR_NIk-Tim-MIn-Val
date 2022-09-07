@@ -2,6 +2,15 @@
 #include <stdlib.h>
 
 float RechteckFlache(){
+    int isRunning = 1;
+     int c;
+        FILE *file;
+        file = fopen("Rectangle.txt", "r");
+        if (file)
+        {
+            while ((c = getc(file)) != EOF)
+                putchar(c);
+         
     float firstNumber;
     float secondNumber;
 
