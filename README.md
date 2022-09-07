@@ -16,6 +16,7 @@ Zuerst haben wir die Aufgabenstellung durchgelesen und uns die wichtigsten Plfic
 ### Zusätzliche Infos
 
 Der Taschenrechner darf Operatoren (noch) nicht mischen (z.B. 3+2*4).
+
 Es soll aber möglich sein, negative Zahlen zu multiplizieren.
 
 Deadline für das Projekt wäre am 08.09.2022 Donnerstag
@@ -43,7 +44,7 @@ Es ist auch wichtig, dass wir miteinander kommunizieren, damit wir uns gegenseit
 
 Während der Arbeit sind wir auf einem Problem gestossen.
 
-Wir hatten einen Merge-Konflikt in Github, aber wir konnten das Problem selbst beheben.
+Es gab einen Merge-Konflikt in Github, aber wir konnten das Problem selbst beheben.
 
 Ansonsten gab es nur Mikroprobleme wie z.B. wie man ein Code schreibt usw.
 Diese Probleme konnten schnell gelöst werden, indem wir einander gegenseitig geholfen haben.
