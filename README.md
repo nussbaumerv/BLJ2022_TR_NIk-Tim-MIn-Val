@@ -20,7 +20,7 @@ Zuerst haben wir die Aufgabenstellung durchgelesen und uns die wichtigsten Plfic
     •Dreieck
     •Trapez
 
-### Zusätzliche Infos
+#### Zusätzliche Infos
 
 Der Taschenrechner darf Operatoren (noch) nicht mischen (z.B. 3+2*4).
 
