@@ -12,7 +12,11 @@ int main(int argc, char **argv)
 {
      char firstInput;
      int isRunning = 1;
-     printf("Welcome to our\n");
+
+     
+
+     printf("Welcome to our Calculator\n");
+
 
      while (isRunning)
      {
@@ -24,7 +28,9 @@ int main(int argc, char **argv)
           if (firstInput == 'y' || firstInput == 'Y')
           {
                char chooseFunction;
-               printf("What tool do you wane use?\n");
+               printf("What tool do you want to use?\n");
+               printf("\nThese are our available Tools: \nA = Addition\nS = Subraktion\nM = Multiplikation\nD = Division\nE = Exponenten\nF = Fakultat\nW = Wurzel\n");
+               printf("Type character: ");
                scanf("%c", &chooseFunction);
                fflush(stdin);
 
