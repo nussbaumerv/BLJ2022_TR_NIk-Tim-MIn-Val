@@ -4,6 +4,7 @@
 #include "KreisFlache.h"
 #include "Dreiecksberechnung.h"
 #include "Quadrat.h"
+#include "RechteckFlache.h"
 
 int main(int argc, char **argv)
 {
@@ -37,7 +38,7 @@ int main(int argc, char **argv)
                char chooseFunction;
                printf("What tool do you want to use?\n");
 
-               printf("\nThese are our available Tools: \nA = Addition\nS = Subtraktion\nM = Multiplikation\nD = Division\nE = Exponenten\nF = Fakultat\nW = Wurzel\nT = Triangle\nC = Circle\nV = Viereck\n");
+               printf("\nThese are our available Tools: \nA = Addition\nS = Subtraktion\nM = Multiplikation\nD = Division\nE = Exponenten\nF = Fakultat\nW = Wurzel\nT = Triangle\nR = Rectangel\nC = Circle\nQ = Square\n");
                
                printf("Type character: ");
                scanf("%c", &chooseFunction);
@@ -87,12 +88,17 @@ int main(int argc, char **argv)
                 else if (chooseFunction == 'c' || chooseFunction == 'C')
                {
                     printf("Welcome to the Circle tool\n");
-                    printf("\nResult: %f\n", KreisFlache());
+                    printf("\nResult: %.2fcm2\n", KreisFlache());
                }
-                  else if (chooseFunction == 'v' || chooseFunction == 'V')
+                  else if (chooseFunction == 'q' || chooseFunction == 'Q')
                {
                     printf("Welcome to the Square tool\n");
-                    printf("\nResult: %f\n", Quadrat());
+                    printf("\nResult: %fcm2\n", Quadrat());
+               }
+               else if (chooseFunction == 'r' || chooseFunction == 'R')
+               {
+                    printf("Welcome to the Rectangle tool\n");
+                    printf("\nResult: %.2fcm2\n", RechteckFlache());
                }
                printf("------------------------------------------\n");
           }

@@ -1,4 +1,4 @@
-# Taschenrechner in C Doku
+# Taschenrechner in C Dokumentation
 
 ## 1. Informieren: 
 
@@ -47,7 +47,7 @@ Die Arbeit haben wir so aufgeteilt:
     • Nikola: Subtraktion & Division & Fakultät
     • Timofey: Wurzeln & Exponenten
     • Valentin: Main Function & Addition & Multiplikation
-    • Minh: Doku für das ganze Projekt 
+    • Minh: Dokumentation für das ganze Projekt 
  
 ## 3. Entscheiden:
 
