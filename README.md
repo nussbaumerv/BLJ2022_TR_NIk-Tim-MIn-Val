@@ -1,12 +1,19 @@
 # BLJ2022_TR_NIk-Tim-MIn-Val
 
-I: Wir haben die Aufgabestellung durchgelesen und die Pflichtfeatures notiert
+Informieren: Wir haben die Aufgabestellung durchgelesen und die Pflichtfeatures notiert
 
-P: Wir haben von beginn unser gesammtes Projekt sehr gut aufgeteilt.
+# 2. Planen:
 
-E:
+Wir haben von beginn unser gesammtes Projekt sehr gut aufgeteilt. Da wir viele Funktionen schreiben müssen, haben wir geschaut, wer welche Arbeit machen wird und wer welche Funktionen schreiben wird, so dass wir möglichst effizient weiter kommen können.
 
-R:
+- Nikola: Subtraktion & Division & Fakultät
+- Timofey: Wurzeln & Exponenten
+- Valentin: Main Function & Addition & Multiplikation
+- Minh: Doku für das ganze Projekt
+- 
+# 3. Entscheiden:
+
+Realisieren: 
 
 K:
 
