@@ -24,13 +24,20 @@ Deadline für das Projekt wäre am 08.09.2022 Donnerstag
 
 Wir haben von beginn unser gesammtes Projekt sehr gut aufgeteilt. Da wir viele Funktionen schreiben müssen, haben wir geschaut, wer welche Arbeit machen wird und wer welche Funktionen schreiben wird, so dass wir möglichst effizient weiter kommen können.
 
-Die Gruppe hat die Arbeit so aufgeteilt:
+Die Arbeit haben wir so aufgeteilt:
+
     - Nikola: Subtraktion & Division & Fakultät
     - Timofey: Wurzeln & Exponenten
     - Valentin: Main Function & Addition & Multiplikation
     - Minh: Doku für das ganze Projekt 
  
 ## 3. Entscheiden:
+
+Nach der Planung für das Projekt, waren wir alle mit der Aufteilung einverstanden und konnten loslegen.
+
+Unser Ziel ist es, möglichst effizient zu arbeiten und am Schluss ein fertiggestellten Produkt präsentieren zu können
+
+Es ist auch wichtig, dass wir miteinander kommunizieren, damit wir uns gegenseitig bei unseren Problemen helfen können und auch um sicherzustellen, dass wir einen klaren Überblick über das gesamte Projekt haben.
 
 ## 4. Realisieren: 
 
