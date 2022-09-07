@@ -6,8 +6,9 @@ int main(int argc, char **argv)
 {
      char firstInput;
      int isRunning = 1;
-
-     
+     int c;
+     FILE *file;
+        
 
      printf("Welcome to our Calculator\n");
 
