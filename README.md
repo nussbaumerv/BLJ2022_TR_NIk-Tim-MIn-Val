@@ -12,13 +12,13 @@ Zuerst haben wir die Aufgabenstellung durchgelesen und uns die wichtigsten Plfic
     •Exponenten
     •Wurzeln
     •Fakultät
-    
-    Berechnen der Fläche/Volumen von folgenden Flächen/Körper
-        Kreis
-        Quadrat
-        Rechteck
-        Dreieck
-        Trapez
+
+Berechnen der Fläche/Volumen von folgenden Flächen/Körper
+    -Kreis
+    -Quadrat
+    -Rechteck
+    -Dreieck
+    -Trapez
 
 ### Zusätzliche Infos
 
@@ -52,6 +52,8 @@ Es ist auch wichtig, dass wir miteinander kommunizieren, damit wir uns gegenseit
 Während der Arbeit sind wir auf einem Problem gestossen.
 
 Es gab einen Merge-Konflikt in Github, aber wir konnten das Problem selbst beheben.
+
+Um einen zukünftigen Merge-Konflikt zu verhindern, haben wir einander immer abgefragt, wer gerade an welcher Funktion arbeitet.
 
 Ansonsten gab es nur Mikroprobleme wie z.B. wie man ein Code schreibt usw.
 Diese Probleme konnten schnell gelöst werden, indem wir einander gegenseitig geholfen haben.
