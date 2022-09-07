@@ -14,12 +14,12 @@ int wurzeln(int num){
         printf("Please try again!\n");
                 
     }else {
+        printf("wow");
         while(calculating){
             int i = 1;
             int compare = i * i;
             
             if(compare == input){
-                
                 return i;
                 calculating = 0;
             } else if (compare > input){
