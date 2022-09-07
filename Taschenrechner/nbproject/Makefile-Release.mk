@@ -40,6 +40,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/Dreiecksberechnung.o \
 	${OBJECTDIR}/Exponenten.o \
 	${OBJECTDIR}/Fakultat.o \
+	${OBJECTDIR}/KreisFlache.o \
 	${OBJECTDIR}/Multiplikation.o \
 	${OBJECTDIR}/Subtraktion.o \
 	${OBJECTDIR}/Wurzeln.o \
@@ -94,6 +95,11 @@ ${OBJECTDIR}/Fakultat.o: Fakultat.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Fakultat.o Fakultat.c
+
+${OBJECTDIR}/KreisFlache.o: KreisFlache.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/KreisFlache.o KreisFlache.c
 
 ${OBJECTDIR}/Multiplikation.o: Multiplikation.c
 	${MKDIR} -p ${OBJECTDIR}
