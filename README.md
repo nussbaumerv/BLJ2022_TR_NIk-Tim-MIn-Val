@@ -77,8 +77,11 @@ Wir haben einander Tipps gegeben und uns bei Problemen gegenseitig geholfen.
 
 Nachdem wir die Funktionen geschrieben hatten, begannen wir mit der Arbeit am Design des Rechners.
 
-Nicht alles verlief nach Plan und deshalb mussten wir improvisieren und kleine Anpassungen im Code auf dem Weg vornehmen.
+Nicht alles verlief nach Plan und deshalb mussten wir auf dem Weg improvisieren und kleine Anpassungen im Code machen.
+
+## 6. Auswerten:
+
 
 Wegen unsere Teamarbeit und gute Kommunikation ist das Produkt gut rausgekommen und hat unsere Erwartungen erfüllt.
 
-## 6. Auswerten:
+Wir sind auch rechtzeitig fertig geworden mit dem Taschenrechner und hatten dann genug Zeit um an unsere Präsentation zu arbeiten.
