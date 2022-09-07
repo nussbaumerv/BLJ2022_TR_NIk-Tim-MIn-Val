@@ -10,38 +10,37 @@
 
 int main(int argc, char **argv)
 {
-    char chooseFunction[10];
-    printf("Welcome to our calculator");
-    scanf("%c", chooseFunction);
+    char chooseFunction;
+    printf("Welcome to our calculator\n");
+    scanf("%c", &chooseFunction);
 
-    if (chooseFunction == "a" || chooseFunction == "A")
+    if (chooseFunction =='a' || chooseFunction == 'A')
     {
-        addition();
-        printf("%d", addition());
+        printf("%d\n", addition());
     }
-    else if (chooseFunction == "s" || chooseFunction == "S")
+    else if (chooseFunction == 's' || chooseFunction =='S')
     {
-        subtraktion();
+          printf("%d\n", subtraktion());
     }
-    else if (chooseFunction == "m" || chooseFunction == "M")
+    else if (chooseFunction == 'm' || chooseFunction == 'M')
     {
-       multiplikation();
+         printf("%d\n", multiplikation());
     }
-    else if (chooseFunction == "d" || chooseFunction == "D")
+    else if (chooseFunction == 'd' || chooseFunction == 'D')
     {
-       division();
+         printf("%d\n", division());
     }
-    else if (chooseFunction == "f" || chooseFunction == "F")
+    else if (chooseFunction == 'f' || chooseFunction == 'F')
     {
-       fakultat();
+         printf("%d\n", fakultat());
     }
-    else if (chooseFunction == "w" || chooseFunction == "W")
+    else if (chooseFunction == 'w' || chooseFunction == 'W')
     {
-       wurzeln();
+         printf("%d\n", wurzeln());
     }
-    else if (chooseFunction == "e" || chooseFunction == "E")
+    else if (chooseFunction == 'e' || chooseFunction == 'E')
     {
-       exponenten();
+       printf("%d\n", exponenten());
     }
 
     return (EXIT_SUCCESS);
