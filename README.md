@@ -13,12 +13,19 @@ Zuerst haben wir die Aufgabenstellung durchgelesen und uns die wichtigsten Plfic
     •Wurzeln
     •Fakultät
 
-### Berechnen der Fläche/Volumen von folgenden Flächen/Körper
+### Berechnen der Fläche von folgenden Flächen
     •Kreis
     •Quadrat
     •Rechteck
     •Dreieck
     •Trapez
+
+### Berechnung des Volumens von folgenden Körpern
+    •Kugel 
+    •Würfel
+    •Quader
+    •Zylinder
+    •Kegel
 
 #### Zusätzliche Infos
 
@@ -30,7 +37,10 @@ Deadline für das Projekt wäre am 08.09.2022 Donnerstag
 
 ## 2. Planen:
 
-Wir haben von beginn unser gesammtes Projekt sehr gut aufgeteilt. Da wir viele Funktionen schreiben müssen, haben wir geschaut, wer welche Arbeit machen wird und wer welche Funktionen schreiben wird, so dass wir möglichst effizient weiter kommen können.
+Wir haben in der Gruppe Ideen gesammelt, wie unsere Taschenrechner aussehen könnte. 
+Unser gesammtes Projekt haben wir von Anfang an aufgeteilt. Da wir viele Funktionen schreiben müssen, haben wir geschaut, wer welche Arbeit machen wird und wer welche Funktionen schreiben wird, so dass wir möglichst effizient weiter kommen können.
+
+Wie unsere Taschenrechner aussehen würde, haben wir auch geplant und 
 
 Die Arbeit haben wir so aufgeteilt:
 
@@ -61,5 +71,14 @@ Diese Probleme konnten schnell gelöst werden, indem wir einander gegenseitig ge
 Unsere Gruppe hat die Funktionen verbessert, indem wir nach jedem testing des Codes kleine Anpassungen gemacht haben, damit wir sehen können, ob der Rechner wie vorgesehen funktioniert.
 
 ## 5. Kontrollieren:
+
+Obwohl wir die Aufgaben aufgeteilt haben und jeder für seinen Teil verantwortlich ist, haben wir einander trotzdem unterstützt.
+Wir haben einander Tipps gegeben und uns bei Problemen gegenseitig geholfen.
+
+Nachdem wir die Funktionen geschrieben hatten, begannen wir mit der Arbeit am Design des Rechners.
+
+Nicht alles verlief nach Plan und deshalb mussten wir improvisieren und kleine Anpassungen im Code auf dem Weg vornehmen.
+
+Wegen unsere Teamarbeit und gute Kommunikation ist das Produkt gut rausgekommen und hat unsere Erwartungen erfüllt.
 
 ## 6. Auswerten:
