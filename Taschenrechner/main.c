@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "Addition.h"
-#include "Division.h"
-#include "Exponenten.h"
-#include "Subtraktion.h"
-#include "Fakultat.h"
-#include "Wurzeln.h"
-#include "Multiplikation.h"
+//#include "Addition.h"
+//#include "Division.h"
+//#include "Exponenten.h"
+//#include "Subtraktion.h"
+//#include "Fakultat.h"
+//#include "Wurzeln.h"
+//#include "Multiplikation.h"
+
+#include "functions.h"
 
 int main(int argc, char **argv)
 {
@@ -69,6 +71,11 @@ int main(int argc, char **argv)
                {
                     printf("Welcome to the Exponenten tool");
                     printf("\nResult: %d\n", exponenten());
+               }
+               else if (chooseFunction == 't' || chooseFunction == 'T')
+               {
+                    printf("Welcome to the Triangle tool\n");
+                    printf("\nResult: %f \n", dreiecksberechnung());
                }
                printf("------------------------------------------\n");
           }
