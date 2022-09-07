@@ -6,6 +6,7 @@
                    projectFiles="true">
       <itemPath>Addition.h</itemPath>
       <itemPath>Division.h</itemPath>
+      <itemPath>Dreiecksberechnung.h</itemPath>
       <itemPath>Exponenten.h</itemPath>
       <itemPath>Fakultat.h</itemPath>
       <itemPath>Multiplikation.h</itemPath>
@@ -21,6 +22,7 @@
                    projectFiles="true">
       <itemPath>Addition.c</itemPath>
       <itemPath>Division.c</itemPath>
+      <itemPath>Dreiecksberechnung.c</itemPath>
       <itemPath>Exponenten.c</itemPath>
       <itemPath>Fakultat.c</itemPath>
       <itemPath>Multiplikation.c</itemPath>
@@ -57,6 +59,10 @@
       <item path="Division.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Division.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Dreiecksberechnung.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Dreiecksberechnung.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Exponenten.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -108,6 +114,10 @@
       <item path="Division.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="Division.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Dreiecksberechnung.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="Dreiecksberechnung.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Exponenten.c" ex="false" tool="0" flavor2="0">
       </item>

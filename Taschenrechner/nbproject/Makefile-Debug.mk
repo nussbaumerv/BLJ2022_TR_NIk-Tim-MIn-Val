@@ -37,6 +37,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/Addition.o \
 	${OBJECTDIR}/Division.o \
+	${OBJECTDIR}/Dreiecksberechnung.o \
 	${OBJECTDIR}/Exponenten.o \
 	${OBJECTDIR}/Fakultat.o \
 	${OBJECTDIR}/Multiplikation.o \
@@ -78,6 +79,11 @@ ${OBJECTDIR}/Division.o: Division.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Division.o Division.c
+
+${OBJECTDIR}/Dreiecksberechnung.o: Dreiecksberechnung.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Dreiecksberechnung.o Dreiecksberechnung.c
 
 ${OBJECTDIR}/Exponenten.o: Exponenten.c
 	${MKDIR} -p ${OBJECTDIR}
