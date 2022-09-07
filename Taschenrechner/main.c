@@ -72,6 +72,11 @@ int main(int argc, char **argv)
                     printf("Welcome to the Exponenten tool");
                     printf("\nResult: %d\n", exponenten());
                }
+               else if (chooseFunction == 't' || chooseFunction == 'T')
+               {
+                    printf("Welcome to the Triangle tool\n");
+                    printf("\nResult: %f \n", dreiecksberechnung());
+               }
                printf("------------------------------------------\n");
           }
           if (firstInput == 'x' || firstInput == 'X')
