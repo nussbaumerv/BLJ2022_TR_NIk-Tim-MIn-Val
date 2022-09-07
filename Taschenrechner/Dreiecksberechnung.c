@@ -6,6 +6,16 @@ float dreiecksberechnung(){
     float firstNumber;
     float secondNumber;
 
+    int c;
+        FILE *file;
+        file = fopen("Triangle.txt", "r");
+        if (file)
+        {
+            while ((c = getc(file)) != EOF)
+                putchar(c);
+            fclose(file);
+        }
+
     printf("Type the height of the triangle in cm: ");
     scanf("%f", &firstNumber);
 

@@ -31,19 +31,19 @@ int main(int argc, char **argv)
           printf("\nEnter S to start or X to exit: ");
           scanf("%c", &firstInput);
           fflush(stdin);
-          system("clear");
+          system("cls");
 
           if (firstInput == 's' || firstInput == 'S')
           {
                char chooseFunction;
                printf("What tool do you want to use?\n");
 
-               printf("\nThese are our available Tools: \nA = Addition\nS = Subtraktion\nM = Multiplikation\nD = Division\nE = Exponenten\nF = Fakultat\nW = Wurzel\nT = Triangle\nR = Rectangel\nC = Circle\nQ = Square\n");
+               printf("\nThese are our available Tools: \nA = Addition\nS = Subtraktion\nM = Multiplikation\nD = Division\nE = Exponenten\nF = Fakultat\nW = Wurzel\nT = Triangle\nR = Rectangle\nC = Circle\nQ = Square\n");
                
                printf("Type character: ");
                scanf("%c", &chooseFunction);
                fflush(stdin);
-               system("clear");
+               system("cls");
 
                if (chooseFunction == 'a' || chooseFunction == 'A')
                {

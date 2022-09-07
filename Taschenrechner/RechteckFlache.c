@@ -2,10 +2,20 @@
 #include <stdlib.h>
 
 float RechteckFlache(){
+    int isRunning = 1;
+     int c;
+        FILE *file;
+        file = fopen("Rectangle.txt", "r");
+        if (file)
+        {
+            while ((c = getc(file)) != EOF)
+                putchar(c);
+        }
+         
     float firstNumber;
     float secondNumber;
 
-    printf("Type the length of the first side in cm: ");
+    printf("\nType the length of the first side in cm: ");
     scanf("%f", &firstNumber);
 
     printf("Type the length of second side in cm: ");
