@@ -13,8 +13,8 @@ Wir haben von beginn unser gesammtes Projekt sehr gut aufgeteilt. Da wir viele F
 - 
 # 3. Entscheiden:
 
-Realisieren: 
+# 4. Realisieren: 
 
-K:
+# 5. Kontrollieren:
 
-A:
+# 6. Auswerten
