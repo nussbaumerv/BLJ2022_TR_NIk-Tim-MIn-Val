@@ -80,7 +80,7 @@ int main(int argc, char **argv)
           if (firstInput == 'x' || firstInput == 'X')
 
           {
-               printf("Thanks for using our programm");
+               printf("Thanks for using our programm\n");
                isRunning = 0;
           }
      }
