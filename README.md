@@ -40,15 +40,13 @@ Deadline für das Projekt wäre am 08.09.2022 Donnerstag
 Wir haben in der Gruppe Ideen gesammelt, wie unsere Taschenrechner aussehen könnte. 
 Unser gesammtes Projekt haben wir von Anfang an aufgeteilt. Da wir viele Funktionen schreiben müssen, haben wir geschaut, wer welche Arbeit machen wird und wer welche Funktionen schreiben wird, so dass wir möglichst effizient weiter kommen können.
 
-Wie unsere Taschenrechner aussehen würde, haben wir auch geplant und 
-
-Die Arbeit haben wir so aufgeteilt:
+Die Arbeit haben wir am Schluss so aufgeteilt:
 
     • Nikola: Subtraktion & Division & Fakultät
     • Timofey: Wurzeln & Exponenten
     • Valentin: Main Function & Addition & Multiplikation
     • Minh: Dokumentation für das ganze Projekt 
- 
+
 ## 3. Entscheiden:
 
 Nach der Planung für das Projekt, waren wir alle mit der Aufteilung einverstanden und konnten loslegen.
@@ -63,8 +61,9 @@ Während der Arbeit sind wir auf einem Problem gestossen.
 
 Es gab einen Merge-Konflikt in Github, aber wir konnten das Problem selbst beheben.
 
-Um einen zukünftigen Merge-Konflikt zu verhindern, haben wir einander immer abgefragt, wer gerade an welcher Funktion arbeitet.
+Um einen zukünftigen Merge-Konflikt zu verhindern, haben wir immer kleine checkups um zu wissen, wer gerade an welcher Funktion arbeitet.
 
+Wir haben viele Tests durchgeführt und haben dann immer 
 Ansonsten gab es nur Mikroprobleme wie z.B. wie man ein Code schreibt usw.
 Diese Probleme konnten schnell gelöst werden, indem wir einander gegenseitig geholfen haben.
 
@@ -81,7 +80,14 @@ Nicht alles verlief nach Plan und deshalb mussten wir auf dem Weg improvisieren 
 
 ## 6. Auswerten:
 
+Unsere Gruppe hat sehr effizient gearbeitet und es gab nicht viele Probleme, die unseren Fortschritt stark beeinträchtigt haben.
 
-Wegen unsere Teamarbeit und gute Kommunikation ist das Produkt gut rausgekommen und hat unsere Erwartungen erfüllt.
+Wegen unsere Teamarbeit und gute Kommunikation, ist das Produkt gut rausgekommen und es erfüllte unsere Erwartungen.
+
+Wir haben die Funktionen größtenteils alleine geschrieben, aber gegen Ende unseres Produkts begannen wir, immer mehr und mehr zusammenzuarbeiten.
 
 Wir sind auch rechtzeitig fertig geworden mit dem Taschenrechner und hatten dann genug Zeit um an unsere Präsentation zu arbeiten.
+
+Alle sind am Schluss mit dem Produkt zufrieden gewesen.
+
+Allgemein konnten wir viel lernen und haben viele Erfahrungen in Git und auch in die Programmiersprache C gesammelt.
