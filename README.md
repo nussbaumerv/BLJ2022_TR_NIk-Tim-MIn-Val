@@ -62,4 +62,4 @@ Unsere Gruppe hat die Funktionen verbessert, indem wir nach jedem testing des Co
 
 ## 5. Kontrollieren:
 
-## 6. Auswerten
+## 6. Auswerten:
