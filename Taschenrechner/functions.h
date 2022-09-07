@@ -1,5 +1,5 @@
-#ifndef FUNCTIONS.H
-#define FUNCTIONS.H
+#ifndef FUNCTIONS_H
+#define FUNCTIONS_H
 
 int addition();
 int subtraktion();
@@ -9,4 +9,4 @@ int exponenten();
 int wurzeln();
 int fakultat();
 
-#endif // !FUNCTIONS.H
+#endif // !FUNCTIONS_H
