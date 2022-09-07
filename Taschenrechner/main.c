@@ -5,6 +5,7 @@
 #include "Dreiecksberechnung.h"
 #include "Quadrat.h"
 #include "RechteckFlache.h"
+#include "trapez.h"
 
 int main(int argc, char **argv)
 {
@@ -38,7 +39,7 @@ int main(int argc, char **argv)
                char chooseFunction;
                printf("What tool do you want to use?\n");
 
-               printf("\nThese are our available Tools: \nA = Addition\nS = Subtraktion\nM = Multiplikation\nD = Division\nE = Exponenten\nF = Fakultat\nW = Wurzel\nT = Triangle\nR = Rectangle\nC = Circle\nQ = Square\n");
+               printf("\nThese are our available Tools: \nA = Addition\nS = Subtraktion\nM = Multiplikation\nD = Division\nE = Exponenten\nF = Fakultat\nW = Wurzel\nT = Triangle\nR = Rectangle\nC = Circle\nQ = Square\nZ = Trapez\n");
                
                printf("Type character: ");
                scanf("%c", &chooseFunction);
@@ -99,6 +100,11 @@ int main(int argc, char **argv)
                {
                     printf("Welcome to the Rectangle tool\n");
                     printf("\nResult: %.2fcm2\n", RechteckFlache());
+               }
+               else if (chooseFunction == 'z' || chooseFunction == 'Z')
+               {
+                    printf("Welcome to the Trapez tool\n");
+                    printf("\nResult: %.2fcm2\n", trapez());
                }
                printf("------------------------------------------\n");
           }
