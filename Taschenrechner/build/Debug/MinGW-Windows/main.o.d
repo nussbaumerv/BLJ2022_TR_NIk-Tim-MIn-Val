@@ -1,12 +1,5 @@
-build/Debug/MinGW-Windows/main.o: main.c functions.h KreisFlache.h \
- Dreiecksberechnung.h Quadrat.h RechteckFlache.h
+build/Debug/MinGW-Windows/main.o: main.c functions.h geometry.h
 
 functions.h:
 
-KreisFlache.h:
-
-Dreiecksberechnung.h:
-
-Quadrat.h:
-
-RechteckFlache.h:
+geometry.h:

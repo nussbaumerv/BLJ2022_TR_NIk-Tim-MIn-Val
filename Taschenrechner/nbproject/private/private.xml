@@ -7,23 +7,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/BLJ2022_TR_NIk-Tim-MIn-Val/Taschenrechner/Multiplikation.c</file>
-            <file>file:/C:/BLJ2022_TR_NIk-Tim-MIn-Val/Taschenrechner/Division.h</file>
-            <file>file:/C:/BLJ2022_TR_NIk-Tim-MIn-Val/Taschenrechner/KreisFlache.h</file>
-            <file>file:/C:/BLJ2022_TR_NIk-Tim-MIn-Val/Taschenrechner/Quadrat.h</file>
-            <file>file:/C:/BLJ2022_TR_NIk-Tim-MIn-Val/Taschenrechner/Fakultat.c</file>
-            <file>file:/C:/BLJ2022_TR_NIk-Tim-MIn-Val/Taschenrechner/Wurzeln.c</file>
-            <file>file:/C:/BLJ2022_TR_NIk-Tim-MIn-Val/Taschenrechner/Fakultat.h</file>
-            <file>file:/C:/BLJ2022_TR_NIk-Tim-MIn-Val/Taschenrechner/Dreiecksberechnung.c</file>
-            <file>file:/C:/BLJ2022_TR_NIk-Tim-MIn-Val/Taschenrechner/Exponenten.c</file>
-            <file>file:/C:/BLJ2022_TR_NIk-Tim-MIn-Val/Taschenrechner/Quadrat.c</file>
-            <file>file:/C:/BLJ2022_TR_NIk-Tim-MIn-Val/Taschenrechner/KreisFlache.c</file>
-            <file>file:/C:/BLJ2022_TR_NIk-Tim-MIn-Val/Taschenrechner/Subtraktion.h</file>
-            <file>file:/C:/BLJ2022_TR_NIk-Tim-MIn-Val/Taschenrechner/RechteckFlache.h</file>
+            <file>file:/C:/BLJ2022_TR_NIk-Tim-MIn-Val/Taschenrechner/geometry.c</file>
+            <file>file:/C:/BLJ2022_TR_NIk-Tim-MIn-Val/Taschenrechner/RockPaperScissors.h</file>
+            <file>file:/C:/BLJ2022_TR_NIk-Tim-MIn-Val/Taschenrechner/functions.c</file>
             <file>file:/C:/BLJ2022_TR_NIk-Tim-MIn-Val/Taschenrechner/main.c</file>
-            <file>file:/C:/BLJ2022_TR_NIk-Tim-MIn-Val/Taschenrechner/Division.c</file>
-            <file>file:/C:/BLJ2022_TR_NIk-Tim-MIn-Val/Taschenrechner/Addition.c</file>
-            <file>file:/C:/BLJ2022_TR_NIk-Tim-MIn-Val/Taschenrechner/Subtraktion.c</file>
+            <file>file:/C:/BLJ2022_TR_NIk-Tim-MIn-Val/Taschenrechner/RockPaperScissors.c</file>
         </group>
     </open-files>
 </project-private>

@@ -35,17 +35,8 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/Addition.o \
-	${OBJECTDIR}/Division.o \
-	${OBJECTDIR}/Dreiecksberechnung.o \
-	${OBJECTDIR}/Exponenten.o \
-	${OBJECTDIR}/Fakultat.o \
-	${OBJECTDIR}/KreisFlache.o \
-	${OBJECTDIR}/Multiplikation.o \
-	${OBJECTDIR}/Quadrat.o \
-	${OBJECTDIR}/RechteckFlache.o \
-	${OBJECTDIR}/Subtraktion.o \
-	${OBJECTDIR}/Wurzeln.o \
+	${OBJECTDIR}/functions.o \
+	${OBJECTDIR}/geometry.o \
 	${OBJECTDIR}/main.o
 
 
@@ -73,60 +64,15 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/taschenrechner.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/taschenrechner ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/Addition.o: Addition.c
+${OBJECTDIR}/functions.o: functions.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Addition.o Addition.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/functions.o functions.c
 
-${OBJECTDIR}/Division.o: Division.c
+${OBJECTDIR}/geometry.o: geometry.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Division.o Division.c
-
-${OBJECTDIR}/Dreiecksberechnung.o: Dreiecksberechnung.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Dreiecksberechnung.o Dreiecksberechnung.c
-
-${OBJECTDIR}/Exponenten.o: Exponenten.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Exponenten.o Exponenten.c
-
-${OBJECTDIR}/Fakultat.o: Fakultat.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Fakultat.o Fakultat.c
-
-${OBJECTDIR}/KreisFlache.o: KreisFlache.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/KreisFlache.o KreisFlache.c
-
-${OBJECTDIR}/Multiplikation.o: Multiplikation.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Multiplikation.o Multiplikation.c
-
-${OBJECTDIR}/Quadrat.o: Quadrat.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Quadrat.o Quadrat.c
-
-${OBJECTDIR}/RechteckFlache.o: RechteckFlache.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/RechteckFlache.o RechteckFlache.c
-
-${OBJECTDIR}/Subtraktion.o: Subtraktion.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Subtraktion.o Subtraktion.c
-
-${OBJECTDIR}/Wurzeln.o: Wurzeln.c
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Wurzeln.o Wurzeln.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/geometry.o geometry.c
 
 ${OBJECTDIR}/main.o: main.c
 	${MKDIR} -p ${OBJECTDIR}
