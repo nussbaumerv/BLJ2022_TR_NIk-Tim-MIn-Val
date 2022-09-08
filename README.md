@@ -1,10 +1,11 @@
 # Taschenrechner in C Dokumentation
 
-## 1. Informieren: 
+## 1. Informieren
 
 Zuerst haben wir die Aufgabenstellung durchgelesen und uns die wichtigsten Plfichtfeatures notiert.
 
-### Pflichtfeatures:
+### Pflichtfeatures
+
     •Summieren
     •Subtrahieren
     •Dividieren
@@ -14,18 +15,12 @@ Zuerst haben wir die Aufgabenstellung durchgelesen und uns die wichtigsten Plfic
     •Fakultät
 
 ### Berechnen der Fläche von folgenden Flächen
+
     •Kreis
     •Quadrat
     •Rechteck
     •Dreieck
     •Trapez
-
-### Berechnung des Volumens von folgenden Körpern
-    •Kugel 
-    •Würfel
-    •Quader
-    •Zylinder
-    •Kegel
 
 #### Zusätzliche Infos
 
@@ -35,9 +30,9 @@ Es soll aber möglich sein, negative Zahlen zu multiplizieren.
 
 Deadline für das Projekt wäre am 08.09.2022 Donnerstag.
 
-## 2. Planen:
+## 2. Planen
 
-Wir haben in der Gruppe Ideen gesammelt, wie unsere Taschenrechner aussehen könnte. 
+Wir haben in der Gruppe Ideen gesammelt, wie unsere Taschenrechner aussehen könnte.
 Unser gesammtes Projekt haben wir von Anfang an aufgeteilt. Da wir viele Funktionen schreiben müssen, haben wir geschaut, wer welche Arbeit machen wird und wer welche Funktionen schreiben wird, so dass wir möglichst effizient weiter kommen können.
 
 Die Arbeit haben wir am Schluss so aufgeteilt:
@@ -47,7 +42,7 @@ Die Arbeit haben wir am Schluss so aufgeteilt:
     • Valentin: Main Function & Addition & Multiplikation
     • Minh: Dokumentation für das ganze Projekt 
 
-## 3. Entscheiden:
+## 3. Entscheiden
 
 Nach der Planung für das Projekt, waren wir alle mit der Aufteilung einverstanden und konnten loslegen.
 
@@ -55,7 +50,7 @@ Unser Ziel ist es, möglichst effizient zu arbeiten und am Schluss ein fertigges
 
 Es ist auch wichtig, dass wir miteinander kommunizieren, damit wir uns gegenseitig bei unseren Problemen helfen können und auch um sicherzustellen, dass wir einen klaren Überblick über das gesamte Projekt haben.
 
-## 4. Realisieren: 
+## 4. Realisieren
 
 Während der Arbeit sind wir auf einem Problem gestossen.
 
@@ -67,7 +62,7 @@ Ansonsten gab es nur Mikroprobleme wie z.B. wie man ein Code schreibt usw. und d
 
 Unsere Gruppe hat die Funktionen verbessert, indem wir nach jedem testing des Codes kleine Anpassungen gemacht haben, damit wir sehen können, ob der Rechner wie vorgesehen funktioniert.
 
-## 5. Kontrollieren:
+## 5. Kontrollieren
 
 Obwohl wir die Aufgaben aufgeteilt haben und jeder für seinen Teil verantwortlich ist, haben wir einander trotzdem unterstützt.
 Wir haben einander Tipps gegeben und uns bei Problemen gegenseitig geholfen.
@@ -76,7 +71,7 @@ Nachdem wir die Funktionen geschrieben hatten, begannen wir mit der Arbeit am De
 
 Nicht alles verlief nach Plan und deshalb mussten wir auf dem Weg improvisieren und kleine Anpassungen im Code machen.
 
-## 6. Auswerten:
+## 6. Auswerten
 
 Unsere Gruppe hat sehr effizient gearbeitet und es gab nicht viele Probleme, die unseren Fortschritt stark beeinträchtigt haben.
 
