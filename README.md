@@ -86,4 +86,6 @@ Alle sind am Schluss mit dem Produkt zufrieden gewesen und wir konnten viel lern
 ## 7. Selbstreflexionen
 Valentn: https://docs.google.com/document/d/1UXr1Z-MQGN0PDaIvsIh3KTDSrntjFyU0O0ns1KKL3Vk/edit?usp=sharing
 
+Nikola: https://docs.google.com/document/d/1p4gXzTUapkOcmdZtuusOAw5xlgnCzw7pVaGgTC3Su1w/edit
+
 Replit link: https://replit.com/@nussbaumerv/BLJ2022TRNIk-Tim-MIn-Val#Taschenrechner/
