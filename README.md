@@ -88,4 +88,4 @@ Valentin: https://github.com/nussbaumerv/BLJ2022_TR_NIk-Tim-MIn-Val/blob/main/Do
 
 Nikola: https://github.com/nussbaumerv/BLJ2022_TR_NIk-Tim-MIn-Val/blob/main/Dokumente/Nikola_Selbstkritische_Reflexion.pdf
 
-Minh: https://docs.google.com/document/d/1p5y99rl_vGS5_kzgMeujZPqITKjRy7d6SfcH3oXht0c/edit?usp=sharing
+Minh: https://github.com/nussbaumerv/BLJ2022_TR_NIk-Tim-MIn-Val/blob/main/Dokumente/Selbstkritische%20Reflexion%20von%20Minh.pdf
