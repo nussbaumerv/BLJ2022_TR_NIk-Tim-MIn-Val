@@ -15,7 +15,7 @@ float trapez()
             putchar(c);
         fclose(file);
     }
-    printf("\033[0;34m");
+    printf(" \033[0;35m");
     printf("\nWelcome to the Trapeze tool\n");
     printf("\033[0;37m");
     printf("\nType the length of a in cm: ");
@@ -45,7 +45,7 @@ float dreiecksberechnung()
             putchar(c);
         fclose(file);
     }
-    printf("\033[0;34m");
+    printf(" \033[0;35m");
     printf("\nWelcome to the Triangle tool\n");
     printf("\033[0;37m");
     printf("\nType the height of h in cm: ");
@@ -71,7 +71,7 @@ float KreisFlache()
         while ((c = getc(file)) != EOF)
             putchar(c);
     
-        printf("\033[0;34m");
+        printf("\033[0;35m");
         printf("\nWelcome to the Circle tool\n");
         printf("\033[0;37m");
         printf("\nType in the Radius in cm: ");
@@ -93,7 +93,7 @@ float Quadrat()
         fclose(file);
     }
     float a;
-    printf("\033[0;34m");
+    printf("\033[0;35m");
     printf("\nWelcome to the Square tool\n");
     printf("\033[0;37m");
     printf("\nType in length of a in cm: ");
@@ -116,7 +116,7 @@ float RechteckFlache()
 
     float firstNumber;
     float secondNumber;
-    printf("\033[0;34m");
+    printf("\033[0;35m");
     printf("\nWelcome to the Rectangle tool\n");
     printf("\033[0;37m");
     printf("\nType the length of a in cm: ");
