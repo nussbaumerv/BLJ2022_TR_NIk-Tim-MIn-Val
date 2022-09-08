@@ -45,6 +45,7 @@ int main(int argc, char **argv)
                {
                     choosing = 1;
                     chooseFunction = 0;
+                    isArea = 0;
                     printf("Type in a command: ");
                     scanf("%d", &chooseFunction);
                     fflush(stdin);
