@@ -84,12 +84,16 @@ float division()
     printf("\nWelcome to the Division tool\n");
     printf("How many numbers do you want to divide?\n");
     scanf("%f", &numbers);
-
     while (numbers > 0)
     {
         printf("Type in a Digit: ");
         scanf("%f", &divNum);
-        if (num == 1)
+        if (divNum == 0)
+        {
+            printf("\nUndefined\n");
+            return 0;
+        }
+        else if (num == 1)
         {
             num = divNum / num;
         }

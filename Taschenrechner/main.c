@@ -112,7 +112,7 @@ int main(int argc, char **argv)
           else if (userInput == 'x' || userInput == 'X')
           {
                printf("Thanks for using our programm\n");
-               printf("Made By -> Timofey, Valentin, Nikola, Minh");
+               printf("Made By -> Timofey, Valentin, Nikola, Minh\n");
                isRunning = 0;
           }
           else
