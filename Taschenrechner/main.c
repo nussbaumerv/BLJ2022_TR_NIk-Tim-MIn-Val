@@ -5,106 +5,111 @@
 
 int main(int argc, char **argv)
 {
-     char firstInput;
-     int isRunning = 1;
+     char userInput = 0;
+     unsigned short isRunning = 1;
+     int chooseFunction = 0;
+     float result = 0;
+     unsigned short choosing = 1;
+
+     // Printing Title Screen (ASCII Art)
      int c;
-        FILE *file;
-        file = fopen("Images/Title.txt", "r");
-        if (file)
-        {
-            while ((c = getc(file)) != EOF)
-                putchar(c);
-            fclose(file);
-        }
-
-
+     FILE *file;
+     file = fopen("Images/Title.txt", "r");
+     if (file)
+     {
+          while ((c = getc(file)) != EOF)
+               putchar(c);
+          fclose(file);
+     }
 
      printf("\nWelcome to our Calculator\n");
-
 
      while (isRunning)
      {
           fflush(stdin);
           printf("\nEnter S to start or X to exit: ");
-          scanf("%c", &firstInput);
+          scanf("%c", &userInput);
           fflush(stdin);
           system("cls");
 
-          if (firstInput == 's' || firstInput == 'S')
+          if (userInput == 's' || userInput == 'S')
           {
-               char chooseFunction;
+
                printf("What tool do you want to use?\n");
 
-               printf("\nThese are our available Tools: \nA = Addition\nS = Subtraktion\nM = Multiplikation\nD = Division\nE = Exponenten\nF = Fakultat\nW = Wurzel\nT = Triangle\nR = Rectangle\nC = Circle\nQ = Square\nZ = Trapez\n");
-               
-               printf("Type character: ");
-               scanf("%c", &chooseFunction);
-               fflush(stdin);
-               system("cls");
+               printf("\nThese are our available Tools: ");
+               printf("\n1 = Addition\n2 = Subtraktion\n3 = Multiplikation\n4 = Division\n5 = Exponenten\n6 = Fakultat\n7 = Wurzel\n");
+               printf("\n8 = Triangle\n9 = Rectangle\n10 = Circle\n11 = Square\n12 = Trapez\n");
 
-               if (chooseFunction == 'a' || chooseFunction == 'A')
+               do 
                {
-                    printf("\nWelcome to the Addition tool\n");
-                    printf("\nResult: %d\n", addition());
-               }
-               else if (chooseFunction == 's' || chooseFunction == 'S')
-               {
-                    printf("\nWelcome to the Subtraktion tool\n");
-                    printf("\nResult: %d\n", subtraktion());
-               }
-               else if (chooseFunction == 'm' || chooseFunction == 'M')
-               {
-                    printf("\nWelcome to the Multiplikation tool\n");
-                    printf("\nResult: %d\n", multiplikation());
-               }
-               else if (chooseFunction == 'd' || chooseFunction == 'D')
-               {
-                    printf("\nWelcome to the Division tool\n");
-                    printf("\nResult: %f\n", division());
-               }
-               else if (chooseFunction == 'f' || chooseFunction == 'F')
-               {
-                    printf("\nWelcome to the Fakultat tool\n");
-                    printf("\nResult: %d\n", fakultat());
-               }
-               else if (chooseFunction == 'w' || chooseFunction == 'W')
-               {
-                    printf("\nWelcome to the Wurzel tool\n");
-                    printf("\nResult: %d\n", wurzeln());
-               }
-               else if (chooseFunction == 'e' || chooseFunction == 'E')
-               {
-                    printf("\nWelcome to the Exponenten tool\n");
-                    printf("\nResult: %d\n", exponenten());
-               }
-               else if (chooseFunction == 't' || chooseFunction == 'T')
-               {
-                    printf("\nWelcome to the Triangle tool\n");
-                    printf("\nFlaeche: %.2fcm2\n", dreiecksberechnung());
-               }
-                else if (chooseFunction == 'c' || chooseFunction == 'C')
-               {
-                    printf("Welcome to the Circle tool\n");
-                    printf("\nResult: %.2fcm2\n", KreisFlache());
-               }
-                  else if (chooseFunction == 'q' || chooseFunction == 'Q')
-               {
-                    printf("Welcome to the Square tool\n");
-                    printf("\nResult: %fcm2\n", Quadrat());
-               }
-               else if (chooseFunction == 'r' || chooseFunction == 'R')
-               {
-                    printf("Welcome to the Rectangle tool\n");
-                    printf("\nResult: %.2fcm2\n", RechteckFlache());
-               }
-               else if (chooseFunction == 'z' || chooseFunction == 'Z')
-               {
-                    printf("Welcome to the Trapez tool\n");
-                    printf("\nResult: %.2fcm2\n", trapez());
-               }
+                    choosing = 1;
+                    chooseFunction = 0;
+                    printf("Type character: ");
+                    scanf("%d", &chooseFunction);
+                    fflush(stdin);
+                    system("cls");
+
+                    switch (chooseFunction)
+                    {
+                    case 1:
+                         result = addition();
+                         choosing = 0;
+                         break;
+                    case 2:
+                         result = subtraktion();
+                         choosing = 0;
+                         break;
+                    case 3:
+                         result = multiplikation();
+                         choosing = 0;
+                         break;
+                    case 4:
+                         result = division();
+                         choosing = 0;
+                         break;
+                    case 5:
+                         result = exponenten();
+                         choosing = 0;
+                         break;
+                    case 6:
+                         result = fakultat();
+                         choosing = 0;
+                         break;
+                    case 7:
+                         result = wurzeln();
+                         choosing = 0;
+                         break;
+                    case 8:
+                         result = dreiecksberechnung();
+                         choosing = 0;
+                         break;
+                    case 9:
+                         result = RechteckFlache();
+                         choosing = 0;
+                         break;
+                    case 10:
+                         result = KreisFlache();
+                         choosing = 0;
+                         break;
+                    case 11:
+                         result = Quadrat();
+                         choosing = 0;
+                         break;
+                    case 12:
+                         result = trapez();
+                         choosing = 0;
+                         break;
+                    default:
+                         printf("Please try again!:\n");
+                         break;
+                    }
+               } while (choosing);
+               
+               printf("Result: %.2f\n", result);
                printf("------------------------------------------\n");
           }
-          if (firstInput == 'x' || firstInput == 'X')
+          if (userInput == 'x' || userInput == 'X')
 
           {
                printf("Thanks for using our programm\n");
