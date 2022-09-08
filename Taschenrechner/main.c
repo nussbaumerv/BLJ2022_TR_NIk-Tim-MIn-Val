@@ -11,6 +11,8 @@ int main(int argc, char **argv)
      float result = 0;
      unsigned short choosing = 1;
 
+     printf("\033[0;33m");
+
      // Printing Title Screen (ASCII Art)
      int c;
      FILE *file;
@@ -21,6 +23,7 @@ int main(int argc, char **argv)
                putchar(c);
           fclose(file);
      }
+     printf("\033[0;37m");
 
      printf("\nWelcome to our Calculator\n");
 
