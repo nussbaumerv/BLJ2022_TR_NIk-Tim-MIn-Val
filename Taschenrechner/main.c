@@ -11,6 +11,7 @@ int main(int argc, char **argv)
      float result = 0;
      unsigned short choosing = 1;
 
+     // Sets the text colour Yellow
      printf("\033[0;33m");
 
      // Printing Title Screen (ASCII Art)
@@ -23,6 +24,7 @@ int main(int argc, char **argv)
                putchar(c);
           fclose(file);
      }
+     // Sets backt to Black
      printf("\033[0;37m");
 
      printf("\nWelcome to our Calculator\n");
@@ -48,7 +50,7 @@ int main(int argc, char **argv)
                {
                     choosing = 1;
                     chooseFunction = 0;
-                    printf("Type character: ");
+                    printf("Type in a command: ");
                     scanf("%d", &chooseFunction);
                     fflush(stdin);
                     system("cls");
