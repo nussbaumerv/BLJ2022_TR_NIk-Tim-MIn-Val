@@ -1,11 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "functions.h"
-#include "KreisFlache.h"
-#include "Dreiecksberechnung.h"
-#include "Quadrat.h"
-#include "RechteckFlache.h"
-#include "trapez.h"
+#include "geometry.h"
 
 int main(int argc, char **argv)
 {
