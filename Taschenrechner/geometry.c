@@ -15,7 +15,7 @@ float trapez()
             putchar(c);
         fclose(file);
     }
-    printf(" \033[0;35m");
+    printf("\033[0;35m");
     printf("\nWelcome to the Trapeze tool\n");
     printf("\033[0;37m");
     printf("\nType the length of a in cm: ");
