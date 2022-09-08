@@ -5,14 +5,12 @@
 
 int main(int argc, char **argv)
 {
+     unsigned short isArea = 0;
      char userInput = 0;
      unsigned short isRunning = 1;
      int chooseFunction = 0;
      float result = 0;
      unsigned short choosing = 1;
-
-     // Sets the text colour Yellow
-     printf("\033[0;33m");
 
      // Printing Title Screen (ASCII Art)
      int c;
@@ -24,8 +22,6 @@ int main(int argc, char **argv)
                putchar(c);
           fclose(file);
      }
-     // Sets backt to Black
-     printf("\033[0;37m");
 
      printf("\nWelcome to our Calculator\n");
 
@@ -87,22 +83,27 @@ int main(int argc, char **argv)
                          break;
                     case 8:
                          result = dreiecksberechnung();
+                         isArea = 1;
                          choosing = 0;
                          break;
                     case 9:
                          result = RechteckFlache();
+                         isArea = 1;
                          choosing = 0;
                          break;
                     case 10:
                          result = KreisFlache();
+                         isArea = 1;
                          choosing = 0;
                          break;
                     case 11:
                          result = Quadrat();
+                         isArea = 1;
                          choosing = 0;
                          break;
                     case 12:
                          result = trapez();
+                         isArea = 1;
                          choosing = 0;
                          break;
                     default:
@@ -112,6 +113,11 @@ int main(int argc, char **argv)
                } while (choosing);
 
                printf("Result: %.2f\n", result);
+               if (isArea)
+               {
+                    printf("cm2");
+               }
+               
                printf("------------------------------------------\n");
           }
           else if (userInput == 'x' || userInput == 'X')
