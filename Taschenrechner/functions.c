@@ -6,7 +6,9 @@ int addition()
     int result = 0;
     int addNum;
     int numbers;
+    printf("\033[0;36m");
     printf("\nWelcome to the Addition tool\n");
+    printf("\033[0;37m");
     printf("How many numbers do you want to add up?\n");
     scanf("%d", &numbers);
     fflush(stdin);
@@ -28,7 +30,9 @@ int subtraktion()
     int result = 0;
     int subNum;
     int numbers;
+    printf("\033[0;36m");
     printf("\nWelcome to the Subtraction tool\n");
+    printf("\033[0;37m");
     printf("How many numbers do you want to subtraction?\n");
     scanf("%d", &numbers);
     fflush(stdin);
@@ -57,7 +61,9 @@ int multiplikation()
     int result = 0;
     int mulNum;
     int numbers;
+    printf("\033[0;36m");
     printf("\nWelcome to the Multiplication tool\n");
+    printf("\033[0;37m");
     printf("How many numbers do you want to multiply?\n");
     scanf("%d", &numbers);
     fflush(stdin);
@@ -87,7 +93,9 @@ float division()
     float divNum = 0;
     float numbers;
     float num = 1;
+    printf("\033[0;36m");
     printf("\nWelcome to the Division tool\n");
+    printf("\033[0;37m");
     printf("How many numbers do you want to divide?\n");
     scanf("%f", &numbers);
     fflush(stdin);
@@ -119,7 +127,9 @@ int exponenten()
 {
     int Number = 0;
     int Exponent = 0;
+    printf("\033[0;36m");
     printf("\nWelcome to the Exponent tool\n");
+    printf("\033[0;37m");
     printf("Type in a Digit: ");
     scanf("%d", &Number);
     fflush(stdin);
@@ -148,7 +158,9 @@ int wurzeln()
     short calculating = 1;
     short is_running = 1;
     int i = 1;
+    printf("\033[0;36m");
     printf("\nWelcome to the Square Root tool\n");
+    printf("\033[0;37m");
     while (is_running)
     {
 
@@ -188,8 +200,9 @@ int wurzeln()
 int fakultat()
 {
     int i, fact = 1, number;
-
+    printf("\033[0;36m");
     printf("\nWelcome to the Factorial tool\n");
+    printf("\033[0;37m");
     printf("Type in a digit: ");
 
     scanf("%d", &number);

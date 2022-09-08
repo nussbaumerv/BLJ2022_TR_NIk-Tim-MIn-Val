@@ -119,6 +119,7 @@ int main(int argc, char **argv)
                printf("\033[0;36m");
                printf("Thanks for using our programm\n");
                printf("Made By -> Timofey, Valentin, Nikola, Minh\n");
+               printf("\033[0;37m");
                isRunning = 0;
           }
           else
