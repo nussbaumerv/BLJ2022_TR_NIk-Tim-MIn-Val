@@ -116,6 +116,7 @@ int main(int argc, char **argv)
           }
           else if (userInput == 'x' || userInput == 'X')
           {
+               printf("\033[1;31m");
                printf("Thanks for using our programm\n");
                printf("Made By -> Timofey, Valentin, Nikola, Minh\n");
                isRunning = 0;
