@@ -141,14 +141,28 @@ int exponenten()
     {
         return 0;
     }
-    if (Exponent == 0)
+    else if (Exponent == 0)
     {
         return 1;
     }
-
-    for (Exponent > 1; --Exponent;)
+    else
     {
-        result *= Number;
+
+        if (Exponent < 0)
+        {
+            result = 1;
+            for (Exponent < 0; ++Exponent;)
+            {
+                result = result / Number;
+            }
+        }
+        else
+        {
+            for (Exponent > 1; --Exponent;)
+            {
+                result *= Number;
+            }
+        }
     }
     return result;
 }
@@ -207,6 +221,16 @@ int fakultat()
 
     scanf("%d", &number);
     fflush(stdin);
+
+    if (number == 0)
+    {
+        return 1;
+    }
+    if (number < 0)
+    {
+        printf("undefined\n");
+        return 0;
+    }
 
     for (i = 1; i <= number; i++)
     {
