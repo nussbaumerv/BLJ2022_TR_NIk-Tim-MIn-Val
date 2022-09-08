@@ -83,4 +83,7 @@ Wir sind auch rechtzeitig fertig geworden mit dem Taschenrechner und hatten dann
 
 Alle sind am Schluss mit dem Produkt zufrieden gewesen und wir konnten viel lernen und viele Erfahrungen in Git und auch in die Programmiersprache C sammeln.
 
+## 7. Selbstreflexionen
+Valentn: https://docs.google.com/document/d/1UXr1Z-MQGN0PDaIvsIh3KTDSrntjFyU0O0ns1KKL3Vk/edit?usp=sharing
+
 Replit link: https://replit.com/@nussbaumerv/BLJ2022TRNIk-Tim-MIn-Val#Taschenrechner/
