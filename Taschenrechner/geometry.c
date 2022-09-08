@@ -15,7 +15,7 @@ float trapez()
             putchar(c);
         fclose(file);
     }
-    printf("Welcome to the Trapeze tool\n");
+    printf("\nWelcome to the Trapeze tool\n");
     printf("\nType the length of a in cm: ");
     scanf("%f", &a);
 
@@ -67,7 +67,7 @@ float KreisFlache()
         while ((c = getc(file)) != EOF)
             putchar(c);
 
-        printf("Welcome to the Circle tool\n");
+        printf("\nWelcome to the Circle tool\n");
         printf("\nType in the Radius in cm: ");
         scanf("%f", &radNum);
         float result = pi * (radNum * radNum);
@@ -87,7 +87,7 @@ float Quadrat()
         fclose(file);
     }
     float a;
-    printf("Welcome to the Square tool\n");
+    printf("\nWelcome to the Square tool\n");
     printf("\nType in length of a in cm: ");
     scanf("%f", &a);
     float result = a * a;
@@ -109,13 +109,13 @@ float RechteckFlache()
     float firstNumber;
     float secondNumber;
 
-    printf("Welcome to the Rectangle tool\n");
+    printf("\nWelcome to the Rectangle tool\n");
     printf("\nType the length of a in cm: ");
     scanf("%f", &firstNumber);
 
     printf("Type the length of b in cm: ");
     scanf("%f", &secondNumber);
 
-    float result = (firstNumber * firstNumber);
+    float result = firstNumber * secondNumber;
     return result;
 }

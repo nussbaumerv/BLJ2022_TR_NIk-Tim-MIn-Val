@@ -9,11 +9,13 @@ int addition()
     printf("\nWelcome to the Addition tool\n");
     printf("How many numbers do you want to add up?\n");
     scanf("%d", &numbers);
+    fflush(stdin);
 
     while (numbers > 0)
     {
         printf("Type in a Digit: ");
         scanf("%d", &addNum);
+        fflush(stdin);
         result = result + addNum;
         numbers--;
     }
@@ -29,11 +31,13 @@ int subtraktion()
     printf("\nWelcome to the Subtraction tool\n");
     printf("How many numbers do you want to subtraction?\n");
     scanf("%d", &numbers);
+    fflush(stdin);
 
     while (numbers > 0)
     {
         printf("Type in a Digit: ");
         scanf("%d", &subNum);
+        fflush(stdin);
         if (result == 0)
         {
             result = subNum;
@@ -56,11 +60,13 @@ int multiplikation()
     printf("\nWelcome to the Multiplication tool\n");
     printf("How many numbers do you want to multiply?\n");
     scanf("%d", &numbers);
+    fflush(stdin);
 
     while (numbers > 0)
     {
         printf("Type in a Digit: ");
         scanf("%d", &mulNum);
+        fflush(stdin);
         if (result == 0)
         {
             result = mulNum;
@@ -84,10 +90,12 @@ float division()
     printf("\nWelcome to the Division tool\n");
     printf("How many numbers do you want to divide?\n");
     scanf("%f", &numbers);
+    fflush(stdin);
     while (numbers > 0)
     {
         printf("Type in a Digit: ");
         scanf("%f", &divNum);
+        fflush(stdin);
         if (divNum == 0)
         {
             printf("\nUndefined\n");
@@ -109,19 +117,21 @@ float division()
 
 int exponenten()
 {
-    int Number;
-    int Exponent;
+    int Number = 0;
+    int Exponent = 0;
     printf("\nWelcome to the Exponent tool\n");
     printf("Type in a Digit: ");
     scanf("%d", &Number);
+    fflush(stdin);
     printf("Insert an Exponent: ");
     scanf("%d", &Exponent);
-    int result = 1;
+    fflush(stdin);
+    int result = Number;
     if (Number == 0)
     {
         return 0;
     }
-    else if (Exponent == 0)
+    if (Exponent == 0)
     {
         return 1;
     }
@@ -133,7 +143,7 @@ int exponenten()
     return result;
 }
 
-int wurzeln(int num)
+int wurzeln()
 {
     short calculating = 1;
     short is_running = 1;
@@ -145,6 +155,7 @@ int wurzeln(int num)
         int input = 0;
         printf("Type in a Digit:");
         scanf("%d", &input);
+        fflush(stdin);
 
         if (input < 1)
         {
@@ -161,9 +172,10 @@ int wurzeln(int num)
                     return i;
                     calculating = 0;
                 }
-                else if (compare > input)
+                if (compare > input)
                 {
-                    printf("Couldn't get the square root of %d", input);
+                    printf("Couldn't get the square root of %d\n", input);
+                    return 0;
                     calculating = 0;
                 }
                 ++i;
@@ -181,6 +193,7 @@ int fakultat()
     printf("Type in a digit: ");
 
     scanf("%d", &number);
+    fflush(stdin);
 
     for (i = 1; i <= number; i++)
     {
