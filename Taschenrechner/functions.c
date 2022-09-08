@@ -12,7 +12,7 @@ int addition()
 
     while (numbers > 0)
     {
-        printf("Type a number: ");
+        printf("Type in a Digit: ");
         scanf("%d", &addNum);
         result = result + addNum;
         numbers--;
@@ -26,13 +26,13 @@ int subtraktion()
     int result = 0;
     int subNum;
     int numbers;
-    printf("\nWelcome to the Subtraktion tool\n");
+    printf("\nWelcome to the Subtraction tool\n");
     printf("How many numbers do you want to subtraction?\n");
     scanf("%d", &numbers);
 
     while (numbers > 0)
     {
-        printf("Type a number: ");
+        printf("Type in a Digit: ");
         scanf("%d", &subNum);
         if (result == 0)
         {
@@ -53,13 +53,13 @@ int multiplikation()
     int result = 0;
     int mulNum;
     int numbers;
-    printf("\nWelcome to the Multiplikation tool\n");
+    printf("\nWelcome to the Multiplication tool\n");
     printf("How many numbers do you want to multiply?\n");
     scanf("%d", &numbers);
 
     while (numbers > 0)
     {
-        printf("Type a number: ");
+        printf("Type in a Digit: ");
         scanf("%d", &mulNum);
         if (result == 0)
         {
@@ -87,7 +87,7 @@ float division()
 
     while (numbers > 0)
     {
-        printf("Type a number: ");
+        printf("Type in a Digit: ");
         scanf("%f", &divNum);
         if (num == 1)
         {
@@ -107,12 +107,21 @@ int exponenten()
 {
     int Number;
     int Exponent;
-    printf("\nWelcome to the Exponenten tool\n");
-    printf("Number: ");
+    printf("\nWelcome to the Exponent tool\n");
+    printf("Type in a Digit: ");
     scanf("%d", &Number);
-    printf("Exponent: ");
+    printf("Insert an Exponent: ");
     scanf("%d", &Exponent);
-    int result = Number;
+    int result = 1;
+    if (Number == 0)
+    {
+        return 0;
+    }
+    else if (Exponent == 0)
+    {
+        return 1;
+    }
+
     for (Exponent > 1; --Exponent;)
     {
         result *= Number;
@@ -125,12 +134,12 @@ int wurzeln(int num)
     short calculating = 1;
     short is_running = 1;
     int i = 1;
-    printf("\nWelcome to the Wurzel tool\n");
+    printf("\nWelcome to the Square Root tool\n");
     while (is_running)
     {
 
         int input = 0;
-        printf("Give a Digit:");
+        printf("Type in a Digit:");
         scanf("%d", &input);
 
         if (input < 1)
@@ -164,8 +173,8 @@ int fakultat()
 {
     int i, fact = 1, number;
 
-    printf("\nWelcome to the Fakultat tool\n");
-    printf("Enter a number: ");
+    printf("\nWelcome to the Factorial tool\n");
+    printf("Type in a digit: ");
 
     scanf("%d", &number);
 

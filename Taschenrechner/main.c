@@ -38,10 +38,10 @@ int main(int argc, char **argv)
                printf("What tool do you want to use?\n");
 
                printf("\nThese are our available Tools: ");
-               printf("\n1 = Addition\n2 = Subtraktion\n3 = Multiplikation\n4 = Division\n5 = Exponenten\n6 = Fakultat\n7 = Wurzel\n");
+               printf("\n1 = Addition\n2 = Subtraction\n3 = Multiplication\n4 = Division\n5 = Exponent\n6 = Factorial\n7 = Square Root\n");
                printf("\n8 = Triangle\n9 = Rectangle\n10 = Circle\n11 = Square\n12 = Trapez\n");
 
-               do 
+               do
                {
                     choosing = 1;
                     chooseFunction = 0;
@@ -105,15 +105,19 @@ int main(int argc, char **argv)
                          break;
                     }
                } while (choosing);
-               
+
                printf("Result: %.2f\n", result);
                printf("------------------------------------------\n");
           }
-          if (userInput == 'x' || userInput == 'X')
-
+          else if (userInput == 'x' || userInput == 'X')
           {
                printf("Thanks for using our programm\n");
+               printf("Made By -> Timofey, Valentin, Nikola, Minh");
                isRunning = 0;
+          }
+          else
+          {
+               printf("Please try Again!:\n");
           }
      }
      system("pause");
