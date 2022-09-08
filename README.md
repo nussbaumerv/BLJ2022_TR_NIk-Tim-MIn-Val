@@ -84,8 +84,9 @@ Wir sind auch rechtzeitig fertig geworden mit dem Taschenrechner und hatten dann
 Alle sind am Schluss mit dem Produkt zufrieden gewesen und wir konnten viel lernen und viele Erfahrungen in Git und auch in die Programmiersprache C sammeln.
 
 ## 7. Selbstreflexionen
-Valentin: https://github.com/nussbaumerv/BLJ2022_TR_NIk-Tim-MIn-Val/blob/main/Dokumente/Selbstreflexion%20Valentin.pdf
 
-Nikola: https://github.com/nussbaumerv/BLJ2022_TR_NIk-Tim-MIn-Val/blob/main/Dokumente/Nikola_Selbstkritische_Reflexion.pdf
+[Valentin Selbstreflexion](https://github.com/nussbaumerv/BLJ2022_TR_NIk-Tim-MIn-Val/blob/main/Dokumente/Selbstreflexion%20Valentin.pdf)
 
-Minh: https://github.com/nussbaumerv/BLJ2022_TR_NIk-Tim-MIn-Val/blob/main/Dokumente/Selbstkritische%20Reflexion%20von%20Minh.pdf
+[Nikola:](https://github.com/nussbaumerv/BLJ2022_TR_NIk-Tim-MIn-Val/blob/main/Dokumente/Nikola_Selbstkritische_Reflexion.pdf)
+
+[Minh:](https://github.com/nussbaumerv/BLJ2022_TR_NIk-Tim-MIn-Val/blob/main/Dokumente/Selbstkritische%20Reflexion%20von%20Minh.pdf)
