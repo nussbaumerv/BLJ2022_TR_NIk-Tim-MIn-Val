@@ -87,5 +87,3 @@ Alle sind am Schluss mit dem Produkt zufrieden gewesen und wir konnten viel lern
 Valentin: https://docs.google.com/document/d/1UXr1Z-MQGN0PDaIvsIh3KTDSrntjFyU0O0ns1KKL3Vk/edit?usp=sharing
 
 Minh: https://docs.google.com/document/d/1p5y99rl_vGS5_kzgMeujZPqITKjRy7d6SfcH3oXht0c/edit?usp=sharing
-
-Replit link: https://replit.com/@nussbaumerv/BLJ2022TRNIk-Tim-MIn-Val#Taschenrechner/
