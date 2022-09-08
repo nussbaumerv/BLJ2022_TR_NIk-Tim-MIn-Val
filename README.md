@@ -87,6 +87,12 @@ Alle sind am Schluss mit dem Produkt zufrieden gewesen und wir konnten viel lern
 
 [Valentin Selbstreflexion](https://github.com/nussbaumerv/BLJ2022_TR_NIk-Tim-MIn-Val/blob/main/Dokumente/Selbstreflexion%20Valentin.pdf)
 
-[Nikola:](https://github.com/nussbaumerv/BLJ2022_TR_NIk-Tim-MIn-Val/blob/main/Dokumente/Nikola_Selbstkritische_Reflexion.pdf)
+[Nikola Selbstreflexion](https://github.com/nussbaumerv/BLJ2022_TR_NIk-Tim-MIn-Val/blob/main/Dokumente/Nikola_Selbstkritische_Reflexion.pdf)
 
-[Minh:](https://github.com/nussbaumerv/BLJ2022_TR_NIk-Tim-MIn-Val/blob/main/Dokumente/Selbstkritische%20Reflexion%20von%20Minh.pdf)
+[Minh Selbstreflexion](https://github.com/nussbaumerv/BLJ2022_TR_NIk-Tim-MIn-Val/blob/main/Dokumente/Selbstkritische%20Reflexion%20von%20Minh.pdf)
+
+[Timofey Selbstreflexion](https://github.com/nussbaumerv/BLJ2022_TR_NIk-Tim-MIn-Val/blob/main/Dokumente/Selbstreflexion_Timofey.pdf)
+
+[Testing Protocol](https://github.com/nussbaumerv/BLJ2022_TR_NIk-Tim-MIn-Val/blob/main/Dokumente/Testing%20Protokoll.xlsx)
+
+[PowerPoint](https://github.com/nussbaumerv/BLJ2022_TR_NIk-Tim-MIn-Val/blob/main/Dokumente/Taschenrechner%20in%20C.pptx)
