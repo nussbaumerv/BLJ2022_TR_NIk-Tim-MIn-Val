@@ -50,7 +50,7 @@ float dreiecksberechnung()
     printf("Type the length of a in cm: ");
     scanf("%f", &secondNumber);
 
-    float result = (firstNumber * firstNumber) / 2;
+    float result = (firstNumber * secondNumber) / 2;
     return result;
 }
 
