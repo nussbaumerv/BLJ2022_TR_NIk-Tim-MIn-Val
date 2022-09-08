@@ -13,7 +13,7 @@ int main(int argc, char **argv)
      int isRunning = 1;
      int c;
         FILE *file;
-        file = fopen("Title.txt", "r");
+        file = fopen("Images/Title.txt", "r");
         if (file)
         {
             while ((c = getc(file)) != EOF)
