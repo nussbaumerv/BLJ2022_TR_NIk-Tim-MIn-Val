@@ -84,7 +84,9 @@ Wir sind auch rechtzeitig fertig geworden mit dem Taschenrechner und hatten dann
 Alle sind am Schluss mit dem Produkt zufrieden gewesen und wir konnten viel lernen und viele Erfahrungen in Git und auch in die Programmiersprache C sammeln.
 
 ## 7. Selbstreflexionen
-Valentn: https://docs.google.com/document/d/1UXr1Z-MQGN0PDaIvsIh3KTDSrntjFyU0O0ns1KKL3Vk/edit?usp=sharing
+Valentin: https://docs.google.com/document/d/1UXr1Z-MQGN0PDaIvsIh3KTDSrntjFyU0O0ns1KKL3Vk/edit?usp=sharing
+
+Minh: https://docs.google.com/document/d/1p5y99rl_vGS5_kzgMeujZPqITKjRy7d6SfcH3oXht0c/edit?usp=sharing
 
 Nikola: https://docs.google.com/document/d/1p4gXzTUapkOcmdZtuusOAw5xlgnCzw7pVaGgTC3Su1w/edit
 
