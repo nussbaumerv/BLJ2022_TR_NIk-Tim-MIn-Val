@@ -111,13 +111,13 @@ int main(int argc, char **argv)
                     }
                } while (choosing);
 
-               printf("Result: %.2f\n", result);
+               printf("Result: %.2f ", result);
                if (isArea)
                {
-                    printf("cm2");
+                    printf("cm2\n");
                }
                
-               printf("------------------------------------------\n");
+               printf("\n------------------------------------------\n");
           }
           else if (userInput == 'x' || userInput == 'X')
           {
